@@ -1,0 +1,5706 @@
+{
+  "sampleRate": 32000,
+  "format": "mono signed 16-bit little-endian PCM",
+  "cues": {
+    "blade": [
+      "blade-0",
+      "blade-1",
+      "blade-2"
+    ],
+    "heavy": [
+      "heavy-0",
+      "heavy-1",
+      "heavy-2"
+    ],
+    "polearm": [
+      "polearm-0",
+      "polearm-1",
+      "polearm-2"
+    ],
+    "bow": [
+      "bow-0",
+      "bow-1",
+      "bow-2"
+    ],
+    "crossbow": [
+      "crossbow-0",
+      "crossbow-1",
+      "crossbow-2"
+    ],
+    "hook": [
+      "polearm-0",
+      "polearm-1",
+      "polearm-2"
+    ],
+    "leapstart": [
+      "heavy-0",
+      "heavy-1",
+      "heavy-2"
+    ],
+    "reaverlaunch": [
+      "heavy-0",
+      "heavy-1",
+      "heavy-2"
+    ],
+    "executionerswing": [
+      "heavy-0",
+      "heavy-1",
+      "heavy-2"
+    ],
+    "dash": [
+      "dash-0",
+      "dash-1",
+      "dash-2"
+    ],
+    "brawlswing": [
+      "dash-0",
+      "dash-1",
+      "dash-2"
+    ],
+    "air": [
+      "dash-0",
+      "dash-1",
+      "dash-2"
+    ],
+    "steelhit": [
+      "steel-0",
+      "steel-1",
+      "steel-2"
+    ],
+    "stormhit": [
+      "steel-0",
+      "steel-1",
+      "steel-2"
+    ],
+    "shield": [
+      "steel-0",
+      "steel-1",
+      "steel-2"
+    ],
+    "shieldbash": [
+      "steel-0",
+      "steel-1",
+      "steel-2"
+    ],
+    "hit": [
+      "flesh-0",
+      "flesh-1",
+      "flesh-2"
+    ],
+    "flesh": [
+      "flesh-0",
+      "flesh-1",
+      "flesh-2"
+    ],
+    "bloodcut": [
+      "flesh-0",
+      "flesh-1",
+      "flesh-2"
+    ],
+    "woodhit": [
+      "wood-0",
+      "wood-1",
+      "wood-2"
+    ],
+    "break": [
+      "break-0",
+      "break-1",
+      "break-2"
+    ],
+    "icehit": [
+      "ice-0",
+      "ice-1",
+      "ice-2"
+    ],
+    "frost": [
+      "frostcast-0",
+      "frostcast-1",
+      "frostcast-2"
+    ],
+    "shatter": [
+      "shatterburst-0",
+      "shatterburst-1",
+      "shatterburst-2"
+    ],
+    "fire": [
+      "fire-0",
+      "fire-1",
+      "fire-2"
+    ],
+    "firehit": [
+      "fire-0",
+      "fire-1",
+      "fire-2"
+    ],
+    "fireblast": [
+      "fireburst-0",
+      "fireburst-1",
+      "fireburst-2"
+    ],
+    "poison": [
+      "poison-0",
+      "poison-1",
+      "poison-2"
+    ],
+    "poisonhit": [
+      "poison-0",
+      "poison-1",
+      "poison-2"
+    ],
+    "rotpod": [
+      "poison-0",
+      "poison-1",
+      "poison-2"
+    ],
+    "water": [
+      "water-0",
+      "water-1",
+      "water-2"
+    ],
+    "beersplash": [
+      "water-0",
+      "water-1",
+      "water-2"
+    ],
+    "earth": [
+      "stone-0",
+      "stone-1",
+      "stone-2"
+    ],
+    "leapland": [
+      "stone-0",
+      "stone-1",
+      "stone-2"
+    ],
+    "reaverimpact": [
+      "stone-0",
+      "stone-1",
+      "stone-2"
+    ],
+    "executionerimpact": [
+      "stone-0",
+      "stone-1",
+      "stone-2"
+    ],
+    "gun": [
+      "gun-0",
+      "gun-1",
+      "gun-2"
+    ],
+    "breachshot": [
+      "gun-0",
+      "gun-1",
+      "gun-2"
+    ],
+    "bonevolley": [
+      "bone-0",
+      "bone-1",
+      "bone-2"
+    ],
+    "bonecrush": [
+      "bone-0",
+      "bone-1",
+      "bone-2"
+    ],
+    "bonefinish": [
+      "bone-0",
+      "bone-1",
+      "bone-2"
+    ],
+    "treefall": [
+      "treefall"
+    ],
+    "siegeload": [
+      "reload"
+    ],
+    "trap": [
+      "trap-0",
+      "trap-1",
+      "trap-2"
+    ],
+    "trapspring": [
+      "trap-0",
+      "trap-1",
+      "trap-2"
+    ],
+    "grenade": [
+      "gear-0",
+      "gear-1",
+      "gear-2"
+    ],
+    "gear": [
+      "gear-0",
+      "gear-1",
+      "gear-2"
+    ],
+    "bonespear": [
+      "bonespear-0",
+      "bonespear-1",
+      "bonespear-2"
+    ],
+    "bonelance": [
+      "bonespear-0",
+      "bonespear-1",
+      "bonespear-2"
+    ],
+    "bonecast": [
+      "bone-0",
+      "bone-1",
+      "bone-2"
+    ],
+    "brawlhit": [
+      "punch-0",
+      "punch-1",
+      "punch-2"
+    ],
+    "brawlheavy": [
+      "punch-0",
+      "punch-1",
+      "punch-2"
+    ],
+    "corpsebite": [
+      "bone-0",
+      "bone-1",
+      "bone-2"
+    ],
+    "stormarc": [
+      "arc-0",
+      "arc-1",
+      "arc-2"
+    ],
+    "lightninghit": [
+      "arc-0",
+      "arc-1",
+      "arc-2"
+    ],
+    "stormpulse": [
+      "lightning-0",
+      "lightning-1",
+      "lightning-2"
+    ],
+    "lightning": [
+      "lightning-0",
+      "lightning-1",
+      "lightning-2"
+    ],
+    "stormstrike": [
+      "lightning-0",
+      "lightning-1",
+      "lightning-2"
+    ],
+    "stormtempest": [
+      "tempest-0",
+      "tempest-1",
+      "tempest-2"
+    ],
+    "thunder": [
+      "tempest-0",
+      "tempest-1",
+      "tempest-2"
+    ],
+    "stormdraw": [
+      "stormdraw-0",
+      "stormdraw-1",
+      "stormdraw-2"
+    ],
+    "boom": [
+      "boom"
+    ],
+    "cannonfire": [
+      "cannon"
+    ],
+    "cannonhit": [
+      "stone-0",
+      "stone-1",
+      "stone-2"
+    ],
+    "corpseinhale": [
+      "inhale"
+    ],
+    "pluck50": [
+      "pluck-50"
+    ],
+    "pluck57": [
+      "pluck-57"
+    ],
+    "pluck62": [
+      "pluck-62"
+    ],
+    "pluck69": [
+      "pluck-69"
+    ],
+    "stormloop": [
+      "stormloop"
+    ],
+    "soulpull": [
+      "soulpull"
+    ],
+    "bonehit": [
+      "bone-0",
+      "bone-1",
+      "bone-2"
+    ],
+    "corpsecough": [
+      "corpsecough-0",
+      "corpsecough-1",
+      "corpsecough-2"
+    ],
+    "executionerstep": [
+      "armoredstep-0",
+      "armoredstep-1",
+      "armoredstep-2"
+    ],
+    "march": [
+      "march-0",
+      "march-1",
+      "march-2"
+    ],
+    "executionerdraw": [
+      "executionerdraw-0",
+      "executionerdraw-1",
+      "executionerdraw-2"
+    ],
+    "staff": [
+      "staff-0",
+      "staff-1",
+      "staff-2"
+    ],
+    "blendkill": [
+      "blendkill-0",
+      "blendkill-1",
+      "blendkill-2"
+    ],
+    "bloodslam": [
+      "bloodslam-0",
+      "bloodslam-1",
+      "bloodslam-2"
+    ],
+    "hurt": [
+      "hurt-0",
+      "hurt-1",
+      "hurt-2"
+    ],
+    "coin": [
+      "coin-0",
+      "coin-1",
+      "coin-2"
+    ],
+    "pickup": [
+      "pickup-0",
+      "pickup-1",
+      "pickup-2"
+    ],
+    "beast": [
+      "beast-0",
+      "beast-1",
+      "beast-2"
+    ],
+    "charge": [
+      "charge-0",
+      "charge-1",
+      "charge-2"
+    ],
+    "rocket": [
+      "rocket-0",
+      "rocket-1",
+      "rocket-2"
+    ],
+    "firework": [
+      "firework-0",
+      "firework-1",
+      "firework-2"
+    ],
+    "soulbreak": [
+      "soulbreak-0",
+      "soulbreak-1",
+      "soulbreak-2"
+    ],
+    "necro": [
+      "necro-0",
+      "necro-1",
+      "necro-2"
+    ],
+    "soulburst": [
+      "soulburst-0",
+      "soulburst-1",
+      "soulburst-2"
+    ],
+    "rise": [
+      "rise-0",
+      "rise-1",
+      "rise-2"
+    ],
+    "siphon": [
+      "siphon-0",
+      "siphon-1",
+      "siphon-2"
+    ],
+    "bondbreak": [
+      "bondbreak-0",
+      "bondbreak-1",
+      "bondbreak-2"
+    ],
+    "howl": [
+      "howl"
+    ],
+    "dragon": [
+      "dragon"
+    ],
+    "warhorn": [
+      "warhorn"
+    ],
+    "boss": [
+      "boss"
+    ],
+    "bloodready": [
+      "bloodready"
+    ],
+    "reaverready": [
+      "reaverready"
+    ],
+    "crowd_clap": [
+      "crowd-clap"
+    ],
+    "crowd_applause": [
+      "crowd-applause"
+    ],
+    "crowd_stomp": [
+      "crowd-stomp"
+    ],
+    "crowd_coin": [
+      "crowd-coin"
+    ],
+    "crowd_mug": [
+      "crowd-mug"
+    ],
+    "level": [
+      "level-reward"
+    ],
+    "win": [
+      "victory-fanfare"
+    ],
+    "warcry": [
+      "warcry-human-0",
+      "warcry-human-1",
+      "warcry-human-2"
+    ],
+    "warcry_enemy": [
+      "warcry-enemy-0",
+      "warcry-enemy-1",
+      "warcry-enemy-2"
+    ],
+    "sonichit": [
+      "sonic-impact-0",
+      "sonic-impact-1",
+      "sonic-impact-2"
+    ]
+  },
+  "clips": {
+    "blade-0": {
+      "seconds": 0.34,
+      "gain": 6.927738222866605,
+      "rms": 0.11499999999999998,
+      "peak": 0.6298754712572034,
+      "sources": [
+        {
+          "file": "textures/unpacked/Katana Swing.wav",
+          "start": 0.28,
+          "end": 0.62,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "133860f84cb4c311cf273f3a16256a45568d7d4ce468eb081dd17e4e4bfa7487",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "blade-1": {
+      "seconds": 0.34,
+      "gain": 17.150503288889023,
+      "rms": 0.11499999999999999,
+      "peak": 0.6637101041396548,
+      "sources": [
+        {
+          "file": "textures/unpacked/Katana Swing.wav",
+          "start": 1.25,
+          "end": 1.59,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "133860f84cb4c311cf273f3a16256a45568d7d4ce468eb081dd17e4e4bfa7487",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "blade-2": {
+      "seconds": 0.34,
+      "gain": 8.490371005113584,
+      "rms": 0.09596679030880424,
+      "peak": 0.7199999999999999,
+      "sources": [
+        {
+          "file": "textures/unpacked/Katana Swing.wav",
+          "start": 2.2,
+          "end": 2.54,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "133860f84cb4c311cf273f3a16256a45568d7d4ce468eb081dd17e4e4bfa7487",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "heavy-0": {
+      "seconds": 0.58537,
+      "gain": 2.241615214785459,
+      "rms": 0.07715401574934387,
+      "peak": 0.7200000000000001,
+      "sources": [
+        {
+          "file": "textures/unpacked/Axe Swing.wav",
+          "start": 1.42,
+          "end": 1.9,
+          "rate": 0.82,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "a27039c0778934e71e01b943cba04aa4cb788fd94e5e771b68374326494f38a4",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "heavy-1": {
+      "seconds": 0.57319,
+      "gain": 3.985745872095315,
+      "rms": 0.10096414519767914,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "textures/unpacked/Axe Swing.wav",
+          "start": 2.36,
+          "end": 2.83,
+          "rate": 0.82,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "a27039c0778934e71e01b943cba04aa4cb788fd94e5e771b68374326494f38a4",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "heavy-2": {
+      "seconds": 0.58537,
+      "gain": 3.74121647563213,
+      "rms": 0.10017571796589214,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "textures/unpacked/Axe Swing.wav",
+          "start": 5.04,
+          "end": 5.52,
+          "rate": 0.82,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "a27039c0778934e71e01b943cba04aa4cb788fd94e5e771b68374326494f38a4",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "polearm-0": {
+      "seconds": 0.52,
+      "gain": 5.824991529321183,
+      "rms": 0.115,
+      "peak": 0.6742132695578628,
+      "sources": [
+        {
+          "file": "textures/unpacked/Spear Swing.wav",
+          "start": 0.08,
+          "end": 0.6,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "a6faa99aa8d9a020b14f3ea27e422921c9fc336ff4d5870a14bf24a94bc0d016",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "polearm-1": {
+      "seconds": 0.5,
+      "gain": 5.624854673371039,
+      "rms": 0.1068336561312841,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "textures/unpacked/Spear Swing.wav",
+          "start": 0.74,
+          "end": 1.24,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "a6faa99aa8d9a020b14f3ea27e422921c9fc336ff4d5870a14bf24a94bc0d016",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "polearm-2": {
+      "seconds": 0.59,
+      "gain": 9.272224738505175,
+      "rms": 0.115,
+      "peak": 0.6945258223438937,
+      "sources": [
+        {
+          "file": "textures/unpacked/Spear Swing.wav",
+          "start": 1.29,
+          "end": 1.88,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "a6faa99aa8d9a020b14f3ea27e422921c9fc336ff4d5870a14bf24a94bc0d016",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "bow-0": {
+      "seconds": 0.26,
+      "gain": 1.489828471907755,
+      "rms": 0.04398082686135424,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "textures/unpacked/English Longbow Shoot.wav",
+          "start": 0.08,
+          "end": 0.34,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "c25684ccdab3eb13f17a0ffa637fbd175659d092665f16c0bce8510d46c4fbee",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "bow-1": {
+      "seconds": 0.26,
+      "gain": 2.8187533900961075,
+      "rms": 0.04191575900880801,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "textures/unpacked/English Longbow Shoot.wav",
+          "start": 0.44,
+          "end": 0.7,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "c25684ccdab3eb13f17a0ffa637fbd175659d092665f16c0bce8510d46c4fbee",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "bow-2": {
+      "seconds": 0.26,
+      "gain": 2.146131898817764,
+      "rms": 0.04569804859547709,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "textures/unpacked/English Longbow Shoot.wav",
+          "start": 0.76,
+          "end": 1.02,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "c25684ccdab3eb13f17a0ffa637fbd175659d092665f16c0bce8510d46c4fbee",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "crossbow-0": {
+      "seconds": 0.33,
+      "gain": 0.7694233430066336,
+      "rms": 0.03241063383092531,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "textures/unpacked/Crossbow Shoot.wav",
+          "start": 0.3,
+          "end": 0.63,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "d8c68f970540d73ab6fe2db5309166e6dd911876501a16bb4df43498247e19b2",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "crossbow-1": {
+      "seconds": 0.33,
+      "gain": 1.1171389914850296,
+      "rms": 0.04110779156427046,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "textures/unpacked/Crossbow Shoot.wav",
+          "start": 0.82,
+          "end": 1.15,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "d8c68f970540d73ab6fe2db5309166e6dd911876501a16bb4df43498247e19b2",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "crossbow-2": {
+      "seconds": 0.33,
+      "gain": 0.9746387848971295,
+      "rms": 0.038064381095564793,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "textures/unpacked/Crossbow Shoot.wav",
+          "start": 1.4,
+          "end": 1.73,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "d8c68f970540d73ab6fe2db5309166e6dd911876501a16bb4df43498247e19b2",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "dash-0": {
+      "seconds": 0.14831,
+      "gain": 0.46097475081185013,
+      "rms": 0.115,
+      "peak": 0.6667544557323285,
+      "sources": [
+        {
+          "file": "swish/unpacked/swishes/swish-1.wav",
+          "start": 0,
+          "end": null,
+          "rate": 0.85,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "9a15c881345c1ce1c39cc31f52f081c8c4dc81fa41111e0079400f39d3ba0e45",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "steel-0": {
+      "seconds": 0.32,
+      "gain": 0.28395431106910124,
+      "rms": 0.11464334808903721,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "sword/unpacked/sword_clash.1.ogg",
+          "start": 0,
+          "end": 0.32,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "5c5e78e466ba78fe2414f2b7a2a6eb674822ccfc8a8bc9fda32be22f5dde5e69",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "flesh-0": {
+      "seconds": 0.36,
+      "gain": 0.789871651961237,
+      "rms": 0.09061670557389802,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "flesh/unpacked/sword-1a.wav",
+          "start": 0,
+          "end": 0.36,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "ab8880b3c22e37caba150663cf9c8cfe25926f20352de0e7db9ab4f2664fceff",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "bone-0": {
+      "seconds": 0.57409,
+      "gain": 0.6170705211006716,
+      "rms": 0.07570894037512543,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "bone/unpacked/Deep Break 1.wav",
+          "start": 0.04,
+          "end": 0.66,
+          "rate": 1.08,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "a305670dfa138f597f3e28de71cf3e2febcb5efcc0e10a03809f8d8931e073ee",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "wood-0": {
+      "seconds": 0.33809,
+      "gain": 0.5900760434641812,
+      "rms": 0.0396966644016979,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "wood/unpacked/wood_hit_01.ogg",
+          "start": 0,
+          "end": null,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "cf3211d80094cd363e8e56906ad42a8baf10f31ef9e197f3f63464a957bade3a",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "break-0": {
+      "seconds": 0.56481,
+      "gain": 0.4761501983057055,
+      "rms": 0.06138762210196558,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "wood/unpacked/wood_breaking_01.ogg",
+          "start": 0,
+          "end": null,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "83a0e17e536a17897d5915e88c9e70d0be06d0a43bb3a38f44314ada46b06a3e",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "ice-0": {
+      "seconds": 0.36,
+      "gain": 1.2154311785418495,
+      "rms": 0.05314662507716944,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "ice/342546_3562222-hq.mp3",
+          "start": 0.43,
+          "end": 0.79,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "b0fc5db758c884ed597de16c9c9093d3d91741dc02891f0f02ec0485861e8546",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "fire-0": {
+      "seconds": 0.6,
+      "gain": 0.45826123996536766,
+      "rms": 0.07698793885965145,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "fire/unpacked/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 6-Audio.wav",
+          "start": 0,
+          "end": 0.6,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "6c9e3eb3293a3ca6112047623eee5839378a96a95c1aed5119e49a59cce071ff",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "fireburst-0": {
+      "seconds": 1.25,
+      "gain": 0.46205917731722174,
+      "rms": 0.11029368220398324,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "fire/unpacked/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 1-Audio.wav",
+          "start": 0,
+          "end": 1.25,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "bff2d501b06b6559df64a57228f39df3feabda41c32c9f9dda72600a3e3d0490",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "poison-0": {
+      "seconds": 0.47313,
+      "gain": 0.5254115886687699,
+      "rms": 0.01877421667260789,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "slime/unpacked/slime_01.ogg",
+          "start": 0,
+          "end": 0.56,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "4273c9510b03c3cc6b2d901fbd20de62ff4f537e4077a368355039c3081099a1",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "water-0": {
+      "seconds": 0.65,
+      "gain": 0.6048793496567213,
+      "rms": 0.033420240968573774,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "slime/unpacked/splash_02.ogg",
+          "start": 0,
+          "end": 0.65,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "eab0bb4bc01386528ba1e6244c6fd8940ee8d3c91ddb9e9cfea186e8560e04de",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "stone-0": {
+      "seconds": 0.87806,
+      "gain": 1.2116539657817782,
+      "rms": 0.028939009487235764,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "stone/1022.ogg",
+          "start": 8.26,
+          "end": 8.98,
+          "rate": 0.82,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "e2ada01ff84c6e7f0240cc72b65f1e3ce0e7427f9320cbc1de30f77f2654da31",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "gun-0": {
+      "seconds": 0.62,
+      "gain": 0.45545783746696483,
+      "rms": 0.041522719181072434,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "gun/unpacked/Prepared SFX Library/Mossberg/N_26P.wav",
+          "start": 0.76,
+          "end": 1.38,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "311a5b016bebc21e7d812ef0756174fbdc77454229512bd5a64101ec055e8807",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "dash-1": {
+      "seconds": 0.11278,
+      "gain": 0.4170102168575895,
+      "rms": 0.115,
+      "peak": 0.5744765895323056,
+      "sources": [
+        {
+          "file": "swish/unpacked/swishes/swish-2.wav",
+          "start": 0,
+          "end": null,
+          "rate": 0.85,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "1ce7752cce3d43f16fc222ad7f7ffb69d9a5fc01e64b93d205765fc37b8e9b0d",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "steel-1": {
+      "seconds": 0.32,
+      "gain": 0.32284869559424345,
+      "rms": 0.1000861036515367,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "sword/unpacked/sword_clash.2.ogg",
+          "start": 0,
+          "end": 0.32,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "e09f222b70d53f2967514d076e2ae50c21526ac640fe4919965f964af043da1a",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "flesh-1": {
+      "seconds": 0.36,
+      "gain": 0.7687088592065187,
+      "rms": 0.10347792277297044,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "flesh/unpacked/sword-1b.wav",
+          "start": 0,
+          "end": 0.36,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "07a4f6c191c549945c683dee4aa7ac8df16f2e953fc74fa955b1c1b05d1eea09",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "bone-1": {
+      "seconds": 0.57409,
+      "gain": 0.7532920008948896,
+      "rms": 0.07673544622724951,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "bone/unpacked/Deep Break 2.wav",
+          "start": 0.04,
+          "end": 0.66,
+          "rate": 1.08,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "57952dcfcc50f4829dceda79247d3b34aaab223e8582b40d8f236c21ce900eed",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "wood-1": {
+      "seconds": 0.38519,
+      "gain": 0.5010695606756634,
+      "rms": 0.03230882134242465,
+      "peak": 0.7199999999999999,
+      "sources": [
+        {
+          "file": "wood/unpacked/wood_hit_02.ogg",
+          "start": 0,
+          "end": null,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "533144d0633e756d91a7ee6d3a1f00bed81ad85d221232c5e4812e4fd7b14177",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "break-1": {
+      "seconds": 0.5685,
+      "gain": 0.5293057643224797,
+      "rms": 0.056018483155302126,
+      "peak": 0.7199999999999999,
+      "sources": [
+        {
+          "file": "wood/unpacked/wood_breaking_02.ogg",
+          "start": 0,
+          "end": null,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "042e97ceaa551dd3fcccba0e9bdf1e8145133ac4d2ee0b0cbcd0ee698b7cb229",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "ice-1": {
+      "seconds": 0.57,
+      "gain": 1.426130383476932,
+      "rms": 0.04790933950983357,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "ice/342546_3562222-hq.mp3",
+          "start": 1.3,
+          "end": 1.87,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "b0fc5db758c884ed597de16c9c9093d3d91741dc02891f0f02ec0485861e8546",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "fire-1": {
+      "seconds": 0.6,
+      "gain": 0.5146646452598821,
+      "rms": 0.0568568513112819,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "fire/unpacked/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 7-Audio.wav",
+          "start": 0,
+          "end": 0.6,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "458d636dc9f4512c53f90ed65e37e0b68b1dfce1518c95f7606115fcd9a66922",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "fireburst-1": {
+      "seconds": 1.25,
+      "gain": 0.5043425053186523,
+      "rms": 0.09953447354533483,
+      "peak": 0.7199999999999999,
+      "sources": [
+        {
+          "file": "fire/unpacked/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 3-Audio.wav",
+          "start": 0,
+          "end": 1.25,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "6c6d875244fbec12540307f1c83c5e5a6b71a2b2c9f4742f2b09b4689275a4af",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "poison-1": {
+      "seconds": 0.44969,
+      "gain": 0.5551641146626662,
+      "rms": 0.028210674174465662,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "slime/unpacked/slime_02.ogg",
+          "start": 0,
+          "end": 0.56,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "a4ba1530c081706cb7ce8a08702c3552437561c33b851fe46e97d3232574320c",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "water-1": {
+      "seconds": 0.65,
+      "gain": 0.5562712097748811,
+      "rms": 0.02347056324045585,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "slime/unpacked/splash_03.ogg",
+          "start": 0,
+          "end": 0.65,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "ae2cff9a47934ece590dda45ff18acf89c5c98cb5497ce71c50b3a315b225a94",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "stone-1": {
+      "seconds": 0.87806,
+      "gain": 0.7715711219591108,
+      "rms": 0.02455320020853832,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "stone/1022.ogg",
+          "start": 10.08,
+          "end": 10.8,
+          "rate": 0.82,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "e2ada01ff84c6e7f0240cc72b65f1e3ce0e7427f9320cbc1de30f77f2654da31",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "gun-1": {
+      "seconds": 0.62,
+      "gain": 0.4365655452352286,
+      "rms": 0.037812216849471246,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "gun/unpacked/Prepared SFX Library/Mossberg/N_26P.wav",
+          "start": 4.54,
+          "end": 5.16,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "311a5b016bebc21e7d812ef0756174fbdc77454229512bd5a64101ec055e8807",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "dash-2": {
+      "seconds": 0.17162,
+      "gain": 0.29182855425656296,
+      "rms": 0.115,
+      "peak": 0.4126627149180425,
+      "sources": [
+        {
+          "file": "swish/unpacked/swishes/swish-3.wav",
+          "start": 0,
+          "end": null,
+          "rate": 0.85,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "55b100e2c67fa43dad8510e31e85bbd51a68d5ce84a6e0259e21e19030083e24",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "steel-2": {
+      "seconds": 0.32,
+      "gain": 0.38012247654972736,
+      "rms": 0.10788857330488014,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "sword/unpacked/sword_clash.3.ogg",
+          "start": 0,
+          "end": 0.32,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "6c588bc79b7e4fe202e3b65fa849954d684d2d2342f6ad04813540854c421663",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "flesh-2": {
+      "seconds": 0.36,
+      "gain": 1.016482484134566,
+      "rms": 0.0779609830075925,
+      "peak": 0.7199999999999999,
+      "sources": [
+        {
+          "file": "flesh/unpacked/piercing-1a.wav",
+          "start": 0,
+          "end": 0.36,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "7aba0b9c376cc3ff1068d1cfe0176758930db039514977d11e9fd881725a3f59",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "bone-2": {
+      "seconds": 0.57409,
+      "gain": 0.9212834231836344,
+      "rms": 0.08624407764884039,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "bone/unpacked/Deep Break 3.wav",
+          "start": 0.04,
+          "end": 0.66,
+          "rate": 1.08,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "49a282735b2899373c8d2903bf6749083aaa331fa514e51cc1066ef834b9b00a",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "wood-2": {
+      "seconds": 0.40706,
+      "gain": 0.5082153160391888,
+      "rms": 0.053988036667536966,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "wood/unpacked/wood_hit_03.ogg",
+          "start": 0,
+          "end": null,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "0f78a5cbe44d2ee45dfc1709f72af87bcbe5e3a8ad369b52535cfe6dbbd626a6",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "break-2": {
+      "seconds": 0.56481,
+      "gain": 0.4761501983057055,
+      "rms": 0.06138762210196558,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "wood/unpacked/wood_breaking_01.ogg",
+          "start": 0,
+          "end": null,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "83a0e17e536a17897d5915e88c9e70d0be06d0a43bb3a38f44314ada46b06a3e",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "ice-2": {
+      "seconds": 0.67,
+      "gain": 1.225025202255067,
+      "rms": 0.051592684732612436,
+      "peak": 0.7200000000000001,
+      "sources": [
+        {
+          "file": "ice/342546_3562222-hq.mp3",
+          "start": 2.26,
+          "end": 2.93,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "b0fc5db758c884ed597de16c9c9093d3d91741dc02891f0f02ec0485861e8546",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "fire-2": {
+      "seconds": 0.6,
+      "gain": 0.542433255178602,
+      "rms": 0.09088639623782453,
+      "peak": 0.7200000000000001,
+      "sources": [
+        {
+          "file": "fire/unpacked/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 9-Audio.wav",
+          "start": 0,
+          "end": 0.6,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "8c4868b5cd5e788bb83da84fd1d33b0f1aee776884af966570860a7207b26619",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "fireburst-2": {
+      "seconds": 1.25,
+      "gain": 0.4911846302970287,
+      "rms": 0.047959426639138714,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "fire/unpacked/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 20-Audio.wav",
+          "start": 0,
+          "end": 1.25,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "f86cadeeea62301a30870946ddb34f1975ddf189b2719d3459832973955a0eff",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "poison-2": {
+      "seconds": 0.56,
+      "gain": 0.848166701198804,
+      "rms": 0.04191322840031908,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "slime/unpacked/slime_03.ogg",
+          "start": 0,
+          "end": 0.56,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "e78e0702ac671ae098537266cb6f9106d2402ed99b6554b1429327ec603c3dae",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "water-2": {
+      "seconds": 0.65,
+      "gain": 0.5398178230584915,
+      "rms": 0.06218296479087065,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "slime/unpacked/splash_04.ogg",
+          "start": 0,
+          "end": 0.65,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "58dddea3843b89e9504e6f174ea49cd061b1002bb6ae8a94f358409fabb8340a",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "stone-2": {
+      "seconds": 0.87806,
+      "gain": 0.6766338663832367,
+      "rms": 0.03286384441114548,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "stone/1022.ogg",
+          "start": 11.68,
+          "end": 12.4,
+          "rate": 0.82,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "e2ada01ff84c6e7f0240cc72b65f1e3ce0e7427f9320cbc1de30f77f2654da31",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "gun-2": {
+      "seconds": 0.62,
+      "gain": 0.4438159922840244,
+      "rms": 0.03968626792757753,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "gun/unpacked/Prepared SFX Library/Mossberg/N_26P.wav",
+          "start": 7.92,
+          "end": 8.54,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "311a5b016bebc21e7d812ef0756174fbdc77454229512bd5a64101ec055e8807",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "treefall": {
+      "seconds": 1.597,
+      "gain": 0.1404114632702711,
+      "rms": 0.02620201214722514,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "tree/chop-tree-fall.ogg",
+          "start": 0.04,
+          "end": 2.45,
+          "rate": 1.5090909090909088,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "21842dd004b46315a5d52be80997773421d8b1d3a0d473ddbcad388efd93b33a",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "reload": {
+      "seconds": 0.56,
+      "gain": 0.31098626503900734,
+      "rms": 0.11499999999999999,
+      "peak": 0.5672828384238512,
+      "sources": [
+        {
+          "file": "shotgun/unpacked/ShotgunSounds/Rack.mp3",
+          "start": 0.56,
+          "end": 1.12,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "c97f10056f123dce481e249457263329aa95237ecd7a77ee1fa96f8eaed0bf91",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "trap-0": {
+      "seconds": 0.37,
+      "gain": 0.6685810404837239,
+      "rms": 0.05333223633048686,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "wood/unpacked/metal_spring_01.ogg",
+          "start": 0,
+          "end": 0.37,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "bc7d84bf0353ef884c62dc0a9ef29e05864d452ac8509a40e125fb9d7507f98f",
+          "delay": 0,
+          "layer_gain": 1
+        },
+        {
+          "file": "wood/unpacked/metal_hit_01.ogg",
+          "start": 0,
+          "end": 0.25,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "f5fd185fce454947c1d91ce6757e219c4d7c6c139d4aa9d419cd7a79c7f6df3b",
+          "delay": 0.06,
+          "layer_gain": 0.45
+        }
+      ]
+    },
+    "gear-0": {
+      "seconds": 0.42,
+      "gain": 0.9969355909483919,
+      "rms": 0.033712073125146846,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "clock/586150_59530-hq.mp3",
+          "start": 0.8,
+          "end": 1.22,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "9259522ded953b367537202ef3fd2c2489e8dc9f8200456812fed7351230588c",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "bonespear-0": {
+      "seconds": 0.32,
+      "gain": 1.6483185023881963,
+      "rms": 0.038406356160012846,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "textures/unpacked/Spear Swing.wav",
+          "start": 0.08,
+          "end": 0.4,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "a6faa99aa8d9a020b14f3ea27e422921c9fc336ff4d5870a14bf24a94bc0d016",
+          "delay": 0,
+          "layer_gain": 0.55
+        },
+        {
+          "file": "rattle/unpacked/0.ogg",
+          "start": 0,
+          "end": null,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "979aef9bca51ed0aab0d21585ce979ca0a98da42b694b76b12c6b24a06e999c7",
+          "delay": 0.06,
+          "layer_gain": 0.5
+        }
+      ]
+    },
+    "punch-0": {
+      "seconds": 0.4,
+      "gain": 0.9564032043943299,
+      "rms": 0.115,
+      "peak": 0.6776216330242988,
+      "sources": [
+        {
+          "file": "flesh/unpacked/punch_1a.wav",
+          "start": 0,
+          "end": 0.4,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "d1d8a13784f955b5dde1ef530c30ca734ff79dd4146dc46b00226f11ff013958",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "trap-1": {
+      "seconds": 0.37,
+      "gain": 0.5694088554288637,
+      "rms": 0.06986430687835413,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "wood/unpacked/metal_spring_02.ogg",
+          "start": 0,
+          "end": 0.37,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "373fb40c3f895e04623633057160a217005b04816a957094ae3c3d66fe21dca0",
+          "delay": 0,
+          "layer_gain": 1
+        },
+        {
+          "file": "wood/unpacked/metal_hit_02.ogg",
+          "start": 0,
+          "end": 0.25,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "9074c0828727bd00834cabcaaf5b8cbff2cfad7b45676b95d86c0919e444f8b1",
+          "delay": 0.06,
+          "layer_gain": 0.45
+        }
+      ]
+    },
+    "gear-1": {
+      "seconds": 0.42,
+      "gain": 1.0754867003897008,
+      "rms": 0.037117186623156696,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "clock/586150_59530-hq.mp3",
+          "start": 3.8,
+          "end": 4.22,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "9259522ded953b367537202ef3fd2c2489e8dc9f8200456812fed7351230588c",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "bonespear-1": {
+      "seconds": 0.32,
+      "gain": 1.7263870485615782,
+      "rms": 0.03544492361472352,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "textures/unpacked/Spear Swing.wav",
+          "start": 0.08,
+          "end": 0.4,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "a6faa99aa8d9a020b14f3ea27e422921c9fc336ff4d5870a14bf24a94bc0d016",
+          "delay": 0,
+          "layer_gain": 0.55
+        },
+        {
+          "file": "rattle/unpacked/1.ogg",
+          "start": 0,
+          "end": null,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "1fea2a69b0aa7498a2fcf06f6b7445ffcf68a567fb653e2df8d415c2d9e2c40f",
+          "delay": 0.06,
+          "layer_gain": 0.5
+        }
+      ]
+    },
+    "punch-1": {
+      "seconds": 0.4,
+      "gain": 0.5736206892087826,
+      "rms": 0.10834531403047873,
+      "peak": 0.7200000000000001,
+      "sources": [
+        {
+          "file": "flesh/unpacked/punch_1b.wav",
+          "start": 0,
+          "end": 0.4,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "8c0e9524b52cedfa7eb5a80e39072610b9a66c6fd3facd6843cff34952c1968b",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "trap-2": {
+      "seconds": 0.37,
+      "gain": 0.6685770996816737,
+      "rms": 0.050384733144953175,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "wood/unpacked/metal_spring_01.ogg",
+          "start": 0,
+          "end": 0.37,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "bc7d84bf0353ef884c62dc0a9ef29e05864d452ac8509a40e125fb9d7507f98f",
+          "delay": 0,
+          "layer_gain": 1
+        },
+        {
+          "file": "wood/unpacked/metal_hit_03.ogg",
+          "start": 0,
+          "end": 0.25,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "9daf6e7e1fc1871acfb063cb25ce050faab559ee6c42fed84bf18a4067f26a4d",
+          "delay": 0.06,
+          "layer_gain": 0.45
+        }
+      ]
+    },
+    "gear-2": {
+      "seconds": 0.42,
+      "gain": 0.9326217647370436,
+      "rms": 0.03282436235791706,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "clock/586150_59530-hq.mp3",
+          "start": 7.2,
+          "end": 7.62,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "9259522ded953b367537202ef3fd2c2489e8dc9f8200456812fed7351230588c",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "bonespear-2": {
+      "seconds": 0.32,
+      "gain": 1.5632064737532831,
+      "rms": 0.04410857431443213,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "textures/unpacked/Spear Swing.wav",
+          "start": 0.08,
+          "end": 0.4,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "a6faa99aa8d9a020b14f3ea27e422921c9fc336ff4d5870a14bf24a94bc0d016",
+          "delay": 0,
+          "layer_gain": 0.55
+        },
+        {
+          "file": "rattle/unpacked/2.ogg",
+          "start": 0,
+          "end": null,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "c0addde3a96bb7ab44c71b6bb5bbbf77c1e4596c5b4f96161d49d3ace10ff9ce",
+          "delay": 0.06,
+          "layer_gain": 0.5
+        }
+      ]
+    },
+    "punch-2": {
+      "seconds": 0.4,
+      "gain": 1.1651710484069342,
+      "rms": 0.07670899066825902,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "flesh/unpacked/hammer-1a.wav",
+          "start": 0,
+          "end": 0.4,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "5d78fe908b44b451b59f43f3faae0bd7c407b7ee26b5145221ab38aa356cdaeb",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "arc-0": {
+      "seconds": 0.24269,
+      "gain": 0.9445378950345109,
+      "rms": 0.03259805833754496,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "electric/spark.wav",
+          "start": 0.1,
+          "end": 0.3,
+          "rate": 1.0,
+          "highpass": 450,
+          "lowpass": 11000,
+          "sha256": "9a3d987bdf7f405570aa015f6da42596ce84c5073c18c0561be7cd3ae401bc97",
+          "delay": 0,
+          "layer_gain": 1
+        },
+        {
+          "file": "electric/continuousspark.wav",
+          "start": 0,
+          "end": 0.218,
+          "rate": 1.0,
+          "highpass": 500,
+          "lowpass": 10000,
+          "sha256": "4ec24045b4fb6a88b958d00f16cc39b8aa992cd6e6a5edb4ecb0f34b36ddb18b",
+          "delay": 0.025,
+          "layer_gain": 0.25
+        }
+      ]
+    },
+    "lightning-0": {
+      "seconds": 0.49,
+      "gain": 0.9398731184406509,
+      "rms": 0.030112606286790553,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "electric/spark.wav",
+          "start": 0.1,
+          "end": 0.3,
+          "rate": 1.0,
+          "highpass": 450,
+          "lowpass": 11000,
+          "sha256": "9a3d987bdf7f405570aa015f6da42596ce84c5073c18c0561be7cd3ae401bc97",
+          "delay": 0,
+          "layer_gain": 1
+        },
+        {
+          "file": "electric/continuousspark.wav",
+          "start": 0,
+          "end": 0.218,
+          "rate": 1.0,
+          "highpass": 500,
+          "lowpass": 10000,
+          "sha256": "4ec24045b4fb6a88b958d00f16cc39b8aa992cd6e6a5edb4ecb0f34b36ddb18b",
+          "delay": 0.035,
+          "layer_gain": 0.45
+        },
+        {
+          "file": "electric/continuousspark.wav",
+          "start": 0,
+          "end": 0.218,
+          "rate": 1.0,
+          "highpass": 500,
+          "lowpass": 10000,
+          "sha256": "4ec24045b4fb6a88b958d00f16cc39b8aa992cd6e6a5edb4ecb0f34b36ddb18b",
+          "delay": 0.17,
+          "layer_gain": 0.25
+        },
+        {
+          "file": "electric/spark.wav",
+          "start": 0.1,
+          "end": 0.3,
+          "rate": 1.0,
+          "highpass": 450,
+          "lowpass": 11000,
+          "sha256": "9a3d987bdf7f405570aa015f6da42596ce84c5073c18c0561be7cd3ae401bc97",
+          "delay": 0.29,
+          "layer_gain": 0.35
+        }
+      ]
+    },
+    "tempest-0": {
+      "seconds": 0.71769,
+      "gain": 0.9758109385212559,
+      "rms": 0.028424225522986207,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "electric/spark.wav",
+          "start": 0.1,
+          "end": 0.3,
+          "rate": 1.0,
+          "highpass": 450,
+          "lowpass": 11000,
+          "sha256": "9a3d987bdf7f405570aa015f6da42596ce84c5073c18c0561be7cd3ae401bc97",
+          "delay": 0,
+          "layer_gain": 1
+        },
+        {
+          "file": "electric/continuousspark.wav",
+          "start": 0,
+          "end": 0.218,
+          "rate": 1.0,
+          "highpass": 500,
+          "lowpass": 10000,
+          "sha256": "4ec24045b4fb6a88b958d00f16cc39b8aa992cd6e6a5edb4ecb0f34b36ddb18b",
+          "delay": 0.03,
+          "layer_gain": 0.4
+        },
+        {
+          "file": "electric/spark.wav",
+          "start": 0.1,
+          "end": 0.3,
+          "rate": 1.0,
+          "highpass": 450,
+          "lowpass": 11000,
+          "sha256": "9a3d987bdf7f405570aa015f6da42596ce84c5073c18c0561be7cd3ae401bc97",
+          "delay": 0.18,
+          "layer_gain": 0.6
+        },
+        {
+          "file": "electric/continuousspark.wav",
+          "start": 0,
+          "end": 0.218,
+          "rate": 1.0,
+          "highpass": 500,
+          "lowpass": 10000,
+          "sha256": "4ec24045b4fb6a88b958d00f16cc39b8aa992cd6e6a5edb4ecb0f34b36ddb18b",
+          "delay": 0.25,
+          "layer_gain": 0.3
+        },
+        {
+          "file": "electric/spark.wav",
+          "start": 0.1,
+          "end": 0.3,
+          "rate": 1.0,
+          "highpass": 450,
+          "lowpass": 11000,
+          "sha256": "9a3d987bdf7f405570aa015f6da42596ce84c5073c18c0561be7cd3ae401bc97",
+          "delay": 0.43,
+          "layer_gain": 0.4
+        },
+        {
+          "file": "electric/continuousspark.wav",
+          "start": 0,
+          "end": 0.218,
+          "rate": 1.0,
+          "highpass": 500,
+          "lowpass": 10000,
+          "sha256": "4ec24045b4fb6a88b958d00f16cc39b8aa992cd6e6a5edb4ecb0f34b36ddb18b",
+          "delay": 0.5,
+          "layer_gain": 0.2
+        }
+      ]
+    },
+    "stormdraw-0": {
+      "seconds": 0.26,
+      "gain": 1.490721124097693,
+      "rms": 0.04448671250265701,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "textures/unpacked/English Longbow Shoot.wav",
+          "start": 0.08,
+          "end": 0.34,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "c25684ccdab3eb13f17a0ffa637fbd175659d092665f16c0bce8510d46c4fbee",
+          "delay": 0,
+          "layer_gain": 1
+        },
+        {
+          "file": "electric/spark.wav",
+          "start": 0.1,
+          "end": 0.3,
+          "rate": 1.0,
+          "highpass": 450,
+          "lowpass": 11000,
+          "sha256": "9a3d987bdf7f405570aa015f6da42596ce84c5073c18c0561be7cd3ae401bc97",
+          "delay": 0.025,
+          "layer_gain": 0.14
+        }
+      ]
+    },
+    "arc-1": {
+      "seconds": 0.23534,
+      "gain": 0.9422117112675749,
+      "rms": 0.03222116585130801,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "electric/spark.wav",
+          "start": 0.1,
+          "end": 0.3,
+          "rate": 1.035,
+          "highpass": 450,
+          "lowpass": 11000,
+          "sha256": "9a3d987bdf7f405570aa015f6da42596ce84c5073c18c0561be7cd3ae401bc97",
+          "delay": 0,
+          "layer_gain": 1
+        },
+        {
+          "file": "electric/continuousspark.wav",
+          "start": 0,
+          "end": 0.218,
+          "rate": 1.035,
+          "highpass": 500,
+          "lowpass": 10000,
+          "sha256": "4ec24045b4fb6a88b958d00f16cc39b8aa992cd6e6a5edb4ecb0f34b36ddb18b",
+          "delay": 0.025,
+          "layer_gain": 0.25
+        }
+      ]
+    },
+    "lightning-1": {
+      "seconds": 0.48325,
+      "gain": 1.0357772927242106,
+      "rms": 0.03221003131534413,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "electric/spark.wav",
+          "start": 0.1,
+          "end": 0.3,
+          "rate": 1.035,
+          "highpass": 450,
+          "lowpass": 11000,
+          "sha256": "9a3d987bdf7f405570aa015f6da42596ce84c5073c18c0561be7cd3ae401bc97",
+          "delay": 0,
+          "layer_gain": 1
+        },
+        {
+          "file": "electric/continuousspark.wav",
+          "start": 0,
+          "end": 0.218,
+          "rate": 1.035,
+          "highpass": 500,
+          "lowpass": 10000,
+          "sha256": "4ec24045b4fb6a88b958d00f16cc39b8aa992cd6e6a5edb4ecb0f34b36ddb18b",
+          "delay": 0.035,
+          "layer_gain": 0.45
+        },
+        {
+          "file": "electric/continuousspark.wav",
+          "start": 0,
+          "end": 0.218,
+          "rate": 1.035,
+          "highpass": 500,
+          "lowpass": 10000,
+          "sha256": "4ec24045b4fb6a88b958d00f16cc39b8aa992cd6e6a5edb4ecb0f34b36ddb18b",
+          "delay": 0.17,
+          "layer_gain": 0.25
+        },
+        {
+          "file": "electric/spark.wav",
+          "start": 0.1,
+          "end": 0.3,
+          "rate": 1.035,
+          "highpass": 450,
+          "lowpass": 11000,
+          "sha256": "9a3d987bdf7f405570aa015f6da42596ce84c5073c18c0561be7cd3ae401bc97",
+          "delay": 0.29,
+          "layer_gain": 0.35
+        }
+      ]
+    },
+    "tempest-1": {
+      "seconds": 0.71034,
+      "gain": 0.9551429511353419,
+      "rms": 0.027424977101986363,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "electric/spark.wav",
+          "start": 0.1,
+          "end": 0.3,
+          "rate": 1.035,
+          "highpass": 450,
+          "lowpass": 11000,
+          "sha256": "9a3d987bdf7f405570aa015f6da42596ce84c5073c18c0561be7cd3ae401bc97",
+          "delay": 0,
+          "layer_gain": 1
+        },
+        {
+          "file": "electric/continuousspark.wav",
+          "start": 0,
+          "end": 0.218,
+          "rate": 1.035,
+          "highpass": 500,
+          "lowpass": 10000,
+          "sha256": "4ec24045b4fb6a88b958d00f16cc39b8aa992cd6e6a5edb4ecb0f34b36ddb18b",
+          "delay": 0.03,
+          "layer_gain": 0.4
+        },
+        {
+          "file": "electric/spark.wav",
+          "start": 0.1,
+          "end": 0.3,
+          "rate": 1.035,
+          "highpass": 450,
+          "lowpass": 11000,
+          "sha256": "9a3d987bdf7f405570aa015f6da42596ce84c5073c18c0561be7cd3ae401bc97",
+          "delay": 0.18,
+          "layer_gain": 0.6
+        },
+        {
+          "file": "electric/continuousspark.wav",
+          "start": 0,
+          "end": 0.218,
+          "rate": 1.035,
+          "highpass": 500,
+          "lowpass": 10000,
+          "sha256": "4ec24045b4fb6a88b958d00f16cc39b8aa992cd6e6a5edb4ecb0f34b36ddb18b",
+          "delay": 0.25,
+          "layer_gain": 0.3
+        },
+        {
+          "file": "electric/spark.wav",
+          "start": 0.1,
+          "end": 0.3,
+          "rate": 1.035,
+          "highpass": 450,
+          "lowpass": 11000,
+          "sha256": "9a3d987bdf7f405570aa015f6da42596ce84c5073c18c0561be7cd3ae401bc97",
+          "delay": 0.43,
+          "layer_gain": 0.4
+        },
+        {
+          "file": "electric/continuousspark.wav",
+          "start": 0,
+          "end": 0.218,
+          "rate": 1.035,
+          "highpass": 500,
+          "lowpass": 10000,
+          "sha256": "4ec24045b4fb6a88b958d00f16cc39b8aa992cd6e6a5edb4ecb0f34b36ddb18b",
+          "delay": 0.5,
+          "layer_gain": 0.2
+        }
+      ]
+    },
+    "stormdraw-1": {
+      "seconds": 0.26,
+      "gain": 2.819718243965097,
+      "rms": 0.04352437998547435,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "textures/unpacked/English Longbow Shoot.wav",
+          "start": 0.44,
+          "end": 0.7,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "c25684ccdab3eb13f17a0ffa637fbd175659d092665f16c0bce8510d46c4fbee",
+          "delay": 0,
+          "layer_gain": 1
+        },
+        {
+          "file": "electric/spark.wav",
+          "start": 0.1,
+          "end": 0.3,
+          "rate": 1.035,
+          "highpass": 450,
+          "lowpass": 11000,
+          "sha256": "9a3d987bdf7f405570aa015f6da42596ce84c5073c18c0561be7cd3ae401bc97",
+          "delay": 0.025,
+          "layer_gain": 0.14
+        }
+      ]
+    },
+    "arc-2": {
+      "seconds": 0.22847,
+      "gain": 1.0266225847543888,
+      "rms": 0.03460492181419196,
+      "peak": 0.7200000000000001,
+      "sources": [
+        {
+          "file": "electric/spark.wav",
+          "start": 0.1,
+          "end": 0.3,
+          "rate": 1.07,
+          "highpass": 450,
+          "lowpass": 11000,
+          "sha256": "9a3d987bdf7f405570aa015f6da42596ce84c5073c18c0561be7cd3ae401bc97",
+          "delay": 0,
+          "layer_gain": 1
+        },
+        {
+          "file": "electric/continuousspark.wav",
+          "start": 0,
+          "end": 0.218,
+          "rate": 1.07,
+          "highpass": 500,
+          "lowpass": 10000,
+          "sha256": "4ec24045b4fb6a88b958d00f16cc39b8aa992cd6e6a5edb4ecb0f34b36ddb18b",
+          "delay": 0.025,
+          "layer_gain": 0.25
+        }
+      ]
+    },
+    "lightning-2": {
+      "seconds": 0.47694,
+      "gain": 1.011484572455859,
+      "rms": 0.030262442516009864,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "electric/spark.wav",
+          "start": 0.1,
+          "end": 0.3,
+          "rate": 1.07,
+          "highpass": 450,
+          "lowpass": 11000,
+          "sha256": "9a3d987bdf7f405570aa015f6da42596ce84c5073c18c0561be7cd3ae401bc97",
+          "delay": 0,
+          "layer_gain": 1
+        },
+        {
+          "file": "electric/continuousspark.wav",
+          "start": 0,
+          "end": 0.218,
+          "rate": 1.07,
+          "highpass": 500,
+          "lowpass": 10000,
+          "sha256": "4ec24045b4fb6a88b958d00f16cc39b8aa992cd6e6a5edb4ecb0f34b36ddb18b",
+          "delay": 0.035,
+          "layer_gain": 0.45
+        },
+        {
+          "file": "electric/continuousspark.wav",
+          "start": 0,
+          "end": 0.218,
+          "rate": 1.07,
+          "highpass": 500,
+          "lowpass": 10000,
+          "sha256": "4ec24045b4fb6a88b958d00f16cc39b8aa992cd6e6a5edb4ecb0f34b36ddb18b",
+          "delay": 0.17,
+          "layer_gain": 0.25
+        },
+        {
+          "file": "electric/spark.wav",
+          "start": 0.1,
+          "end": 0.3,
+          "rate": 1.07,
+          "highpass": 450,
+          "lowpass": 11000,
+          "sha256": "9a3d987bdf7f405570aa015f6da42596ce84c5073c18c0561be7cd3ae401bc97",
+          "delay": 0.29,
+          "layer_gain": 0.35
+        }
+      ]
+    },
+    "tempest-2": {
+      "seconds": 0.70347,
+      "gain": 0.9778893889253112,
+      "rms": 0.027395416169381626,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "electric/spark.wav",
+          "start": 0.1,
+          "end": 0.3,
+          "rate": 1.07,
+          "highpass": 450,
+          "lowpass": 11000,
+          "sha256": "9a3d987bdf7f405570aa015f6da42596ce84c5073c18c0561be7cd3ae401bc97",
+          "delay": 0,
+          "layer_gain": 1
+        },
+        {
+          "file": "electric/continuousspark.wav",
+          "start": 0,
+          "end": 0.218,
+          "rate": 1.07,
+          "highpass": 500,
+          "lowpass": 10000,
+          "sha256": "4ec24045b4fb6a88b958d00f16cc39b8aa992cd6e6a5edb4ecb0f34b36ddb18b",
+          "delay": 0.03,
+          "layer_gain": 0.4
+        },
+        {
+          "file": "electric/spark.wav",
+          "start": 0.1,
+          "end": 0.3,
+          "rate": 1.07,
+          "highpass": 450,
+          "lowpass": 11000,
+          "sha256": "9a3d987bdf7f405570aa015f6da42596ce84c5073c18c0561be7cd3ae401bc97",
+          "delay": 0.18,
+          "layer_gain": 0.6
+        },
+        {
+          "file": "electric/continuousspark.wav",
+          "start": 0,
+          "end": 0.218,
+          "rate": 1.07,
+          "highpass": 500,
+          "lowpass": 10000,
+          "sha256": "4ec24045b4fb6a88b958d00f16cc39b8aa992cd6e6a5edb4ecb0f34b36ddb18b",
+          "delay": 0.25,
+          "layer_gain": 0.3
+        },
+        {
+          "file": "electric/spark.wav",
+          "start": 0.1,
+          "end": 0.3,
+          "rate": 1.07,
+          "highpass": 450,
+          "lowpass": 11000,
+          "sha256": "9a3d987bdf7f405570aa015f6da42596ce84c5073c18c0561be7cd3ae401bc97",
+          "delay": 0.43,
+          "layer_gain": 0.4
+        },
+        {
+          "file": "electric/continuousspark.wav",
+          "start": 0,
+          "end": 0.218,
+          "rate": 1.07,
+          "highpass": 500,
+          "lowpass": 10000,
+          "sha256": "4ec24045b4fb6a88b958d00f16cc39b8aa992cd6e6a5edb4ecb0f34b36ddb18b",
+          "delay": 0.5,
+          "layer_gain": 0.2
+        }
+      ]
+    },
+    "stormdraw-2": {
+      "seconds": 0.26,
+      "gain": 2.1479152240507786,
+      "rms": 0.04653754462347556,
+      "peak": 0.7200000000000001,
+      "sources": [
+        {
+          "file": "textures/unpacked/English Longbow Shoot.wav",
+          "start": 0.76,
+          "end": 1.02,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "c25684ccdab3eb13f17a0ffa637fbd175659d092665f16c0bce8510d46c4fbee",
+          "delay": 0,
+          "layer_gain": 1
+        },
+        {
+          "file": "electric/spark.wav",
+          "start": 0.1,
+          "end": 0.3,
+          "rate": 1.07,
+          "highpass": 450,
+          "lowpass": 11000,
+          "sha256": "9a3d987bdf7f405570aa015f6da42596ce84c5073c18c0561be7cd3ae401bc97",
+          "delay": 0.025,
+          "layer_gain": 0.14
+        }
+      ]
+    },
+    "boom": {
+      "seconds": 1.35,
+      "gain": 0.5350600320869991,
+      "rms": 0.15,
+      "peak": 0.6540984588390625,
+      "sources": [
+        {
+          "file": "explode/171971_71257-hq.mp3",
+          "start": 0,
+          "end": 1.35,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "e8c0bbfb811f37762bfdae906e7a64412f0a07b4cd19745842ab0646ab4d220c",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "cannon": {
+      "seconds": 1.55,
+      "gain": 0.30742120169939385,
+      "rms": 0.08248263909127321,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "cannon/187767_71257-hq.mp3",
+          "start": 0.1,
+          "end": 1.65,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "4710f7fe566f3367f5630544daceb18a1216dd9c359ccb87fe940bd0c97ee858",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "inhale": {
+      "seconds": 1.45334,
+      "gain": 0.9567140724485241,
+      "rms": 0.12354891897715414,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "inhale/65620_271450-hq.mp3",
+          "start": 0.26,
+          "end": 1.35,
+          "rate": 0.75,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "50b59ff5f33ff75984e40390fad51c219a2919ab6fe0347a25a67b23ec63bc01",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "pluck-50": {
+      "seconds": 1.5,
+      "gain": 10.258046280884415,
+      "rms": 0.15849040056362507,
+      "peak": 0.7199999999999999,
+      "sources": [
+        {
+          "file": "guitar/INSGuitarNylon_StringA_Vel02Pick_D3_01.ogg",
+          "start": 0,
+          "end": 1.5,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "f7f380977b7c7634bb51d55dd84cde158bf80eea13db770c7fa6da190d958ed2",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "pluck-57": {
+      "seconds": 1.5,
+      "gain": 7.0714899104461875,
+      "rms": 0.1261229436149762,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "guitar/INSGuitarNylon_StringG_Vel02Pick_A3_01.ogg",
+          "start": 0,
+          "end": 1.5,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "3868fb5d21b2fc5a3fae471c9b6fe1d7822df05d3cadacb58e813598b7ae111a",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "pluck-62": {
+      "seconds": 1.5,
+      "gain": 14.03447715995353,
+      "rms": 0.11448421187997446,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "guitar/INSGuitarNylon_StringB_Vel02Pick_D4_01.ogg",
+          "start": 0,
+          "end": 1.5,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "cc49f6c06ce11bdd752cbdfca8614a80edf727e6089b24175f1a9b24a60244b3",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "pluck-69": {
+      "seconds": 1.5,
+      "gain": 13.54944265077679,
+      "rms": 0.10988512648280865,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "guitar/INSGuitarNylon_StringHighE_Vel02Pick_A4_01.ogg",
+          "start": 0,
+          "end": 1.5,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "a78ac99f02659ad30bd6d4db24ca323b318d56bd09c0cb3271229aaf9f32d9b4",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "stormloop": {
+      "seconds": 1.6,
+      "gain": 2.006784126207171,
+      "rms": 0.07211483977552455,
+      "peak": 0.7200000000000001,
+      "sources": [
+        {
+          "file": "textures/unpacked/Axe Swing.wav",
+          "start": 1.45,
+          "end": 1.78,
+          "rate": 0.92,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "a27039c0778934e71e01b943cba04aa4cb788fd94e5e771b68374326494f38a4",
+          "delay": 0.0,
+          "layer_gain": 1
+        },
+        {
+          "file": "textures/unpacked/Axe Swing.wav",
+          "start": 2.39,
+          "end": 2.72,
+          "rate": 0.92,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "a27039c0778934e71e01b943cba04aa4cb788fd94e5e771b68374326494f38a4",
+          "delay": 0.4,
+          "layer_gain": 0.8
+        },
+        {
+          "file": "textures/unpacked/Axe Swing.wav",
+          "start": 3.35,
+          "end": 3.68,
+          "rate": 0.92,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "a27039c0778934e71e01b943cba04aa4cb788fd94e5e771b68374326494f38a4",
+          "delay": 0.8,
+          "layer_gain": 1
+        },
+        {
+          "file": "textures/unpacked/Axe Swing.wav",
+          "start": 5.07,
+          "end": 5.4,
+          "rate": 0.92,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "a27039c0778934e71e01b943cba04aa4cb788fd94e5e771b68374326494f38a4",
+          "delay": 1.2000000000000002,
+          "layer_gain": 0.8
+        }
+      ]
+    },
+    "frostcast-0": {
+      "seconds": 0.61538,
+      "gain": 1.7367905228633471,
+      "rms": 0.06693329410985388,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "ice/342546_3562222-hq.mp3",
+          "start": 0.43,
+          "end": 0.79,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "b0fc5db758c884ed597de16c9c9093d3d91741dc02891f0f02ec0485861e8546",
+          "delay": 0,
+          "layer_gain": 0.7
+        },
+        {
+          "file": "ice/342546_3562222-hq.mp3",
+          "start": 3.91,
+          "end": 4.42,
+          "rate": 1.12,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "b0fc5db758c884ed597de16c9c9093d3d91741dc02891f0f02ec0485861e8546",
+          "delay": 0.16,
+          "layer_gain": 0.4
+        }
+      ]
+    },
+    "shatterburst-0": {
+      "seconds": 0.59,
+      "gain": 1.2012998015731846,
+      "rms": 0.07072712227566688,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "ice/342546_3562222-hq.mp3",
+          "start": 0.43,
+          "end": 0.79,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "b0fc5db758c884ed597de16c9c9093d3d91741dc02891f0f02ec0485861e8546",
+          "delay": 0,
+          "layer_gain": 1
+        },
+        {
+          "file": "ice/342546_3562222-hq.mp3",
+          "start": 3.91,
+          "end": 4.42,
+          "rate": 1.12,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "b0fc5db758c884ed597de16c9c9093d3d91741dc02891f0f02ec0485861e8546",
+          "delay": 0.045,
+          "layer_gain": 0.6
+        },
+        {
+          "file": "ice/342546_3562222-hq.mp3",
+          "start": 0.43,
+          "end": 0.79,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "b0fc5db758c884ed597de16c9c9093d3d91741dc02891f0f02ec0485861e8546",
+          "delay": 0.23,
+          "layer_gain": 0.3
+        }
+      ]
+    },
+    "frostcast-1": {
+      "seconds": 0.61538,
+      "gain": 1.8248691434951907,
+      "rms": 0.06944746948066642,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "ice/342546_3562222-hq.mp3",
+          "start": 1.3,
+          "end": 1.87,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "b0fc5db758c884ed597de16c9c9093d3d91741dc02891f0f02ec0485861e8546",
+          "delay": 0,
+          "layer_gain": 0.7
+        },
+        {
+          "file": "ice/342546_3562222-hq.mp3",
+          "start": 3.91,
+          "end": 4.42,
+          "rate": 1.12,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "b0fc5db758c884ed597de16c9c9093d3d91741dc02891f0f02ec0485861e8546",
+          "delay": 0.16,
+          "layer_gain": 0.4
+        }
+      ]
+    },
+    "shatterburst-1": {
+      "seconds": 0.8,
+      "gain": 1.2182288390779241,
+      "rms": 0.06095191768324193,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "ice/342546_3562222-hq.mp3",
+          "start": 1.3,
+          "end": 1.87,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "b0fc5db758c884ed597de16c9c9093d3d91741dc02891f0f02ec0485861e8546",
+          "delay": 0,
+          "layer_gain": 1
+        },
+        {
+          "file": "ice/342546_3562222-hq.mp3",
+          "start": 3.91,
+          "end": 4.42,
+          "rate": 1.12,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "b0fc5db758c884ed597de16c9c9093d3d91741dc02891f0f02ec0485861e8546",
+          "delay": 0.045,
+          "layer_gain": 0.6
+        },
+        {
+          "file": "ice/342546_3562222-hq.mp3",
+          "start": 1.3,
+          "end": 1.87,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "b0fc5db758c884ed597de16c9c9093d3d91741dc02891f0f02ec0485861e8546",
+          "delay": 0.23,
+          "layer_gain": 0.3
+        }
+      ]
+    },
+    "frostcast-2": {
+      "seconds": 0.67,
+      "gain": 1.1712275423675875,
+      "rms": 0.04844061806813119,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "ice/342546_3562222-hq.mp3",
+          "start": 2.26,
+          "end": 2.93,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "b0fc5db758c884ed597de16c9c9093d3d91741dc02891f0f02ec0485861e8546",
+          "delay": 0,
+          "layer_gain": 0.7
+        },
+        {
+          "file": "ice/342546_3562222-hq.mp3",
+          "start": 3.91,
+          "end": 4.42,
+          "rate": 1.12,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "b0fc5db758c884ed597de16c9c9093d3d91741dc02891f0f02ec0485861e8546",
+          "delay": 0.16,
+          "layer_gain": 0.4
+        }
+      ]
+    },
+    "shatterburst-2": {
+      "seconds": 0.9,
+      "gain": 1.1735430195731729,
+      "rms": 0.06315036397254004,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "ice/342546_3562222-hq.mp3",
+          "start": 2.26,
+          "end": 2.93,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "b0fc5db758c884ed597de16c9c9093d3d91741dc02891f0f02ec0485861e8546",
+          "delay": 0,
+          "layer_gain": 1
+        },
+        {
+          "file": "ice/342546_3562222-hq.mp3",
+          "start": 3.91,
+          "end": 4.42,
+          "rate": 1.12,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "b0fc5db758c884ed597de16c9c9093d3d91741dc02891f0f02ec0485861e8546",
+          "delay": 0.045,
+          "layer_gain": 0.6
+        },
+        {
+          "file": "ice/342546_3562222-hq.mp3",
+          "start": 2.26,
+          "end": 2.93,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "b0fc5db758c884ed597de16c9c9093d3d91741dc02891f0f02ec0485861e8546",
+          "delay": 0.23,
+          "layer_gain": 0.3
+        }
+      ]
+    },
+    "soulpull": {
+      "seconds": 1.09525,
+      "gain": 4.659580546370391,
+      "rms": 0.11999999999999997,
+      "peak": 0.6007734487652048,
+      "sources": [
+        {
+          "file": "ghost/ghostbreath.flac",
+          "start": 0.1,
+          "end": 1.25,
+          "rate": 1.05,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "f371839853a5dff7dbd5a8c81368f5cfab587f567df5ba962e981d4392c530bc",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "corpsecough-0": {
+      "seconds": 0.50309,
+      "gain": 0.44762925900454603,
+      "rms": 0.105,
+      "peak": 0.6318752195088734,
+      "sources": [
+        {
+          "file": "creatures/unpacked/cough_01.ogg",
+          "start": 0,
+          "end": null,
+          "rate": 0.85,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "ab4335a796373e46114e56ea9b8f2d5e3592d7f6e76c22c8b29b3aa985e8831c",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "armoredstep-0": {
+      "seconds": 0.35,
+      "gain": 20.55212896189639,
+      "rms": 0.11999999999999997,
+      "peak": 0.6971815412303801,
+      "sources": [
+        {
+          "file": "footsteps/unpacked/footsteps/step_metal.ogg",
+          "start": 0,
+          "end": null,
+          "rate": 0.88,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "74fb327096d53e30caf5954df38bc6666bb20679a62438ed014b1beeb67dd251",
+          "delay": 0,
+          "layer_gain": 1
+        },
+        {
+          "file": "chain/0359.ogg",
+          "start": 1.18,
+          "end": 1.58,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "9378a42d90408f2c5f1cb8a0815898f1623a014bf1d4b4e579b8909321db3238",
+          "delay": 0.025,
+          "layer_gain": 0.08
+        }
+      ]
+    },
+    "march-0": {
+      "seconds": 0.8,
+      "gain": 19.728560749897717,
+      "rms": 0.115,
+      "peak": 0.6692474403673053,
+      "sources": [
+        {
+          "file": "footsteps/unpacked/footsteps/step_metal.ogg",
+          "start": 0,
+          "end": null,
+          "rate": 0.88,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "74fb327096d53e30caf5954df38bc6666bb20679a62438ed014b1beeb67dd251",
+          "delay": 0,
+          "layer_gain": 1
+        },
+        {
+          "file": "footsteps/unpacked/footsteps/step_metal (4).ogg",
+          "start": 0,
+          "end": null,
+          "rate": 0.92,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "25db2a8e024ab51cd23dc66ef881b7f0c2d898c081e6feb105693e1dd5e2817f",
+          "delay": 0.25,
+          "layer_gain": 0.85
+        },
+        {
+          "file": "footsteps/unpacked/footsteps/step_metal.ogg",
+          "start": 0,
+          "end": null,
+          "rate": 0.88,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "74fb327096d53e30caf5954df38bc6666bb20679a62438ed014b1beeb67dd251",
+          "delay": 0.5,
+          "layer_gain": 0.78
+        },
+        {
+          "file": "chain/0359.ogg",
+          "start": 1.18,
+          "end": 1.58,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "9378a42d90408f2c5f1cb8a0815898f1623a014bf1d4b4e579b8909321db3238",
+          "delay": 0.025,
+          "layer_gain": 0.1
+        }
+      ]
+    },
+    "executionerdraw-0": {
+      "seconds": 0.53,
+      "gain": 0.6696705024181282,
+      "rms": 0.029566325642818796,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "textures/unpacked/Katana Draw Fast.wav",
+          "start": 0.24,
+          "end": 0.62,
+          "rate": 0.72,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "cd1785c90dc4cbce6a7a3bcfec1f58cd7850dae1c14b49b290b4a08cf7d28c82",
+          "extra_envelope": {
+            "attack": 0.004,
+            "release": 0.08,
+            "reversed": false
+          },
+          "delay": 0,
+          "layer_gain": 1
+        },
+        {
+          "file": "chain/0359.ogg",
+          "start": 1.18,
+          "end": 1.58,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "9378a42d90408f2c5f1cb8a0815898f1623a014bf1d4b4e579b8909321db3238",
+          "delay": 0.13,
+          "layer_gain": 0.18
+        }
+      ]
+    },
+    "staff-0": {
+      "seconds": 0.19447,
+      "gain": 0.43646241884969783,
+      "rms": 0.115,
+      "peak": 0.5837146216927391,
+      "sources": [
+        {
+          "file": "swish/unpacked/swishes/swish-4.wav",
+          "start": 0,
+          "end": null,
+          "rate": 0.75,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "0060f4a7040edce4cc50d1daa10a9cb76764128a942e4688339e69cd1d5d784c",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "blendkill-0": {
+      "seconds": 0.56,
+      "gain": 0.6832455978269898,
+      "rms": 0.08405557914567048,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "flesh/unpacked/sword-1a.wav",
+          "start": 0,
+          "end": 0.27,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "ab8880b3c22e37caba150663cf9c8cfe25926f20352de0e7db9ab4f2664fceff",
+          "delay": 0,
+          "layer_gain": 1
+        },
+        {
+          "file": "flesh/unpacked/sword-arm-2b.wav",
+          "start": 0,
+          "end": 0.3,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "cda1b398a1786f1858d26793496ea884b18d46226e8cb442da35a1a875aa125b",
+          "delay": 0.095,
+          "layer_gain": 0.75
+        },
+        {
+          "file": "slime/unpacked/slime_01.ogg",
+          "start": 0,
+          "end": 0.35,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "4273c9510b03c3cc6b2d901fbd20de62ff4f537e4077a368355039c3081099a1",
+          "delay": 0.19,
+          "layer_gain": 0.4
+        }
+      ]
+    },
+    "bloodslam-0": {
+      "seconds": 0.98,
+      "gain": 1.1651477445494833,
+      "rms": 0.04590748648552551,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "stone/1022.ogg",
+          "start": 8.26,
+          "end": 8.98,
+          "rate": 0.78,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "e2ada01ff84c6e7f0240cc72b65f1e3ce0e7427f9320cbc1de30f77f2654da31",
+          "delay": 0,
+          "layer_gain": 0.75
+        },
+        {
+          "file": "flesh/unpacked/hammer-arm-2a.wav",
+          "start": 0,
+          "end": 0.37,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "3bd6b11c2c75544e8a2b7f62a80894dbdbe2a9a050328a0b7e0614a63466a6bf",
+          "delay": 0,
+          "layer_gain": 1
+        },
+        {
+          "file": "slime/unpacked/slime_01.ogg",
+          "start": 0,
+          "end": 0.4,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "4273c9510b03c3cc6b2d901fbd20de62ff4f537e4077a368355039c3081099a1",
+          "delay": 0.08,
+          "layer_gain": 0.4
+        }
+      ]
+    },
+    "hurt-0": {
+      "seconds": 0.27,
+      "gain": 0.7517580042377304,
+      "rms": 0.11,
+      "peak": 0.5326289605863915,
+      "sources": [
+        {
+          "file": "flesh/unpacked/punch_1a.wav",
+          "start": 0,
+          "end": 0.27,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "d1d8a13784f955b5dde1ef530c30ca734ff79dd4146dc46b00226f11ff013958",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "coin-0": {
+      "seconds": 0.26,
+      "gain": 11.17500452857977,
+      "rms": 0.07661409704236546,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "coins/coinsounds011015.wav",
+          "start": 1.16,
+          "end": 1.42,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "58ea9a7191bf7ff370bf9bb06940802b378bd32d5800adaff4ad6173d13430af",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "pickup-0": {
+      "seconds": 0.09953,
+      "gain": 0.49202772867388195,
+      "rms": 0.05999999999999999,
+      "peak": 0.5744633427724118,
+      "sources": [
+        {
+          "file": "interface/unpacked/Audio/pluck_001.ogg",
+          "start": 0,
+          "end": 0.16,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "be97ec4893a02d6eccfb678daa76c83e34cb2583b834ec2593d2641def739fa4",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "beast-0": {
+      "seconds": 0.43928,
+      "gain": 1.004815913366716,
+      "rms": 0.115,
+      "peak": 0.41833525017750745,
+      "sources": [
+        {
+          "file": "creatures/unpacked/roar_01.ogg",
+          "start": 0,
+          "end": null,
+          "rate": 0.85,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "e9d44326860a1c3aba917684faccfd967a4fefa284d7df773e05ae890ec242e0",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "charge-0": {
+      "seconds": 0.61053,
+      "gain": 0.8158840636836202,
+      "rms": 0.10999999999999999,
+      "peak": 0.5250885212035582,
+      "sources": [
+        {
+          "file": "creatures/unpacked/grunt_01.ogg",
+          "start": 0,
+          "end": 0.58,
+          "rate": 0.95,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "73ee84f2bb3e1b371a72dd66a09f150c98c9000bcb735c3bdd7f607e59385206",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "rocket-0": {
+      "seconds": 0.72,
+      "gain": 1.8021177143051483,
+      "rms": 0.065,
+      "peak": 0.5550994917208337,
+      "sources": [
+        {
+          "file": "pyro/336008_4921277-hq.mp3",
+          "start": 0.04,
+          "end": 0.68,
+          "rate": 0.9,
+          "highpass": 1000,
+          "lowpass": 6500,
+          "sha256": "662c9cc0565d1256f29145a2ceca6868815df2a193c36cbb1e55858602dc0fa2",
+          "delay": 0,
+          "layer_gain": 8
+        },
+        {
+          "file": "fire/unpacked/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 7-Audio.wav",
+          "start": 0,
+          "end": 0.45,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "458d636dc9f4512c53f90ed65e37e0b68b1dfce1518c95f7606115fcd9a66922",
+          "delay": 0,
+          "layer_gain": 0.22
+        }
+      ]
+    },
+    "firework-0": {
+      "seconds": 0.74,
+      "gain": 1.776997310944226,
+      "rms": 0.065,
+      "peak": 0.31925109231879034,
+      "sources": [
+        {
+          "file": "pyro/336008_4921277-hq.mp3",
+          "start": 0.04,
+          "end": 0.68,
+          "rate": 0.9,
+          "highpass": 1000,
+          "lowpass": 6500,
+          "sha256": "662c9cc0565d1256f29145a2ceca6868815df2a193c36cbb1e55858602dc0fa2",
+          "delay": 0,
+          "layer_gain": 9
+        },
+        {
+          "file": "fire/unpacked/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 9-Audio.wav",
+          "start": 0,
+          "end": 0.4,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "8c4868b5cd5e788bb83da84fd1d33b0f1aee776884af966570860a7207b26619",
+          "delay": 0.02,
+          "layer_gain": 0.12
+        }
+      ]
+    },
+    "soulbreak-0": {
+      "seconds": 0.7,
+      "gain": 2.6920372869758142,
+      "rms": 0.09132174927209795,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "ghost/ghostbreath.flac",
+          "start": 0.3,
+          "end": 1.03,
+          "rate": 0.92,
+          "highpass": 100,
+          "lowpass": 6500,
+          "sha256": "f371839853a5dff7dbd5a8c81368f5cfab587f567df5ba962e981d4392c530bc",
+          "extra_envelope": {
+            "attack": 0.004,
+            "release": 0.2,
+            "reversed": false
+          },
+          "delay": 0,
+          "layer_gain": 0.65
+        },
+        {
+          "file": "bone/unpacked/Deep Break 4.wav",
+          "start": 0.04,
+          "end": 0.62,
+          "rate": 1.1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "c96f50dbdc01ea7e9136cb836a5632ddee87f213e2eb1772a018595e40f60a80",
+          "delay": 0.025,
+          "layer_gain": 0.3
+        },
+        {
+          "file": "ice/342546_3562222-hq.mp3",
+          "start": 3.91,
+          "end": 4.36,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "b0fc5db758c884ed597de16c9c9093d3d91741dc02891f0f02ec0485861e8546",
+          "delay": 0.08,
+          "layer_gain": 0.22
+        }
+      ]
+    },
+    "necro-0": {
+      "seconds": 0.85,
+      "gain": 3.8302621953772293,
+      "rms": 0.11000000000000001,
+      "peak": 0.42641521301851637,
+      "sources": [
+        {
+          "file": "ghost/ghostbreath.flac",
+          "start": 1.25,
+          "end": 2.0,
+          "rate": 0.85,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "f371839853a5dff7dbd5a8c81368f5cfab587f567df5ba962e981d4392c530bc",
+          "extra_envelope": {
+            "attack": 0.004,
+            "release": 0.15,
+            "reversed": false
+          },
+          "delay": 0,
+          "layer_gain": 0.8
+        },
+        {
+          "file": "rattle/unpacked/3.ogg",
+          "start": 0,
+          "end": null,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "2e06f7663fa3ea8e14f9ee3b3f2106f15716a82e83dee4a408b2d2c35929d560",
+          "delay": 0.18,
+          "layer_gain": 0.05
+        }
+      ]
+    },
+    "soulburst-0": {
+      "seconds": 0.68,
+      "gain": 1.7765185861365673,
+      "rms": 0.07116358381243112,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "ghost/ghostbreath.flac",
+          "start": 0.3,
+          "end": 1.03,
+          "rate": 0.92,
+          "highpass": 100,
+          "lowpass": 6500,
+          "sha256": "f371839853a5dff7dbd5a8c81368f5cfab587f567df5ba962e981d4392c530bc",
+          "extra_envelope": {
+            "attack": 0.004,
+            "release": 0.2,
+            "reversed": false
+          },
+          "delay": 0,
+          "layer_gain": 0.75
+        },
+        {
+          "file": "bone/unpacked/Deep Break 4.wav",
+          "start": 0.04,
+          "end": 0.62,
+          "rate": 1.1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "c96f50dbdc01ea7e9136cb836a5632ddee87f213e2eb1772a018595e40f60a80",
+          "delay": 0,
+          "layer_gain": 0.42
+        }
+      ]
+    },
+    "rise-0": {
+      "seconds": 0.7,
+      "gain": 1.3562999478346374,
+      "rms": 0.07075751571813209,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "stone/1022.ogg",
+          "start": 8.26,
+          "end": 8.8,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "e2ada01ff84c6e7f0240cc72b65f1e3ce0e7427f9320cbc1de30f77f2654da31",
+          "extra_envelope": {
+            "attack": 0.004,
+            "release": 0.08,
+            "reversed": true
+          },
+          "delay": 0,
+          "layer_gain": 0.55
+        },
+        {
+          "file": "bone/unpacked/Deep Break 4.wav",
+          "start": 0.04,
+          "end": 0.62,
+          "rate": 1.1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "c96f50dbdc01ea7e9136cb836a5632ddee87f213e2eb1772a018595e40f60a80",
+          "delay": 0.18,
+          "layer_gain": 0.6
+        }
+      ]
+    },
+    "siphon-0": {
+      "seconds": 0.56,
+      "gain": 2.2035831029956547,
+      "rms": 0.04229914756061913,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "ghost/ghostbreath.flac",
+          "start": 0.3,
+          "end": 1.03,
+          "rate": 0.92,
+          "highpass": 100,
+          "lowpass": 6500,
+          "sha256": "f371839853a5dff7dbd5a8c81368f5cfab587f567df5ba962e981d4392c530bc",
+          "extra_envelope": {
+            "attack": 0.004,
+            "release": 0.14,
+            "reversed": false
+          },
+          "delay": 0,
+          "layer_gain": 0.8
+        },
+        {
+          "file": "slime/unpacked/slime_01.ogg",
+          "start": 0,
+          "end": 0.4,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "4273c9510b03c3cc6b2d901fbd20de62ff4f537e4077a368355039c3081099a1",
+          "delay": 0.03,
+          "layer_gain": 0.25
+        }
+      ]
+    },
+    "bondbreak-0": {
+      "seconds": 0.38,
+      "gain": 0.6360544554519013,
+      "rms": 0.05718297745668481,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "chain/0359.ogg",
+          "start": 1.18,
+          "end": 1.58,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "9378a42d90408f2c5f1cb8a0815898f1623a014bf1d4b4e579b8909321db3238",
+          "delay": 0,
+          "layer_gain": 0.65
+        },
+        {
+          "file": "wood/unpacked/metal_hit_01.ogg",
+          "start": 0,
+          "end": 0.26,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "f5fd185fce454947c1d91ce6757e219c4d7c6c139d4aa9d419cd7a79c7f6df3b",
+          "delay": 0.02,
+          "layer_gain": 0.8
+        }
+      ]
+    },
+    "corpsecough-1": {
+      "seconds": 0.41163,
+      "gain": 0.468428947931104,
+      "rms": 0.07448291096845396,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "creatures/unpacked/cough_02.ogg",
+          "start": 0,
+          "end": null,
+          "rate": 0.85,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "df56e706c69183587dbf6750bf4d5df528051456cd4a838bb1171d5dbb29fcc9",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "armoredstep-1": {
+      "seconds": 0.35,
+      "gain": 9.70298568067189,
+      "rms": 0.11514810654258399,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "footsteps/unpacked/footsteps/step_metal (2).ogg",
+          "start": 0,
+          "end": null,
+          "rate": 0.88,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "68afff8c71620628b0ebf894599de06bc3b80d87222d6cc85abec91fc3337b55",
+          "delay": 0,
+          "layer_gain": 1
+        },
+        {
+          "file": "chain/0359.ogg",
+          "start": 2.23,
+          "end": 2.7,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "9378a42d90408f2c5f1cb8a0815898f1623a014bf1d4b4e579b8909321db3238",
+          "delay": 0.025,
+          "layer_gain": 0.08
+        }
+      ]
+    },
+    "march-1": {
+      "seconds": 0.8,
+      "gain": 9.858671985843083,
+      "rms": 0.10323275615935736,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "footsteps/unpacked/footsteps/step_metal (2).ogg",
+          "start": 0,
+          "end": null,
+          "rate": 0.88,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "68afff8c71620628b0ebf894599de06bc3b80d87222d6cc85abec91fc3337b55",
+          "delay": 0,
+          "layer_gain": 1
+        },
+        {
+          "file": "footsteps/unpacked/footsteps/step_metal (4).ogg",
+          "start": 0,
+          "end": null,
+          "rate": 0.92,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "25db2a8e024ab51cd23dc66ef881b7f0c2d898c081e6feb105693e1dd5e2817f",
+          "delay": 0.25,
+          "layer_gain": 0.85
+        },
+        {
+          "file": "footsteps/unpacked/footsteps/step_metal (2).ogg",
+          "start": 0,
+          "end": null,
+          "rate": 0.88,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "68afff8c71620628b0ebf894599de06bc3b80d87222d6cc85abec91fc3337b55",
+          "delay": 0.5,
+          "layer_gain": 0.78
+        },
+        {
+          "file": "chain/0359.ogg",
+          "start": 2.23,
+          "end": 2.7,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "9378a42d90408f2c5f1cb8a0815898f1623a014bf1d4b4e579b8909321db3238",
+          "delay": 0.025,
+          "layer_gain": 0.1
+        }
+      ]
+    },
+    "executionerdraw-1": {
+      "seconds": 0.6,
+      "gain": 2.2091266793670927,
+      "rms": 0.03943612775982122,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "textures/unpacked/Katana Draw Fast.wav",
+          "start": 1.3,
+          "end": 1.68,
+          "rate": 0.72,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "cd1785c90dc4cbce6a7a3bcfec1f58cd7850dae1c14b49b290b4a08cf7d28c82",
+          "extra_envelope": {
+            "attack": 0.004,
+            "release": 0.08,
+            "reversed": false
+          },
+          "delay": 0,
+          "layer_gain": 1
+        },
+        {
+          "file": "chain/0359.ogg",
+          "start": 2.23,
+          "end": 2.7,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "9378a42d90408f2c5f1cb8a0815898f1623a014bf1d4b4e579b8909321db3238",
+          "delay": 0.13,
+          "layer_gain": 0.18
+        }
+      ]
+    },
+    "staff-1": {
+      "seconds": 0.16947,
+      "gain": 0.40794109215463265,
+      "rms": 0.115,
+      "peak": 0.5788174428260607,
+      "sources": [
+        {
+          "file": "swish/unpacked/swishes/swish-5.wav",
+          "start": 0,
+          "end": null,
+          "rate": 0.75,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "4db41f2d2f97caf94627be05ff2870217fecc86534cf30f2aab413b847a0d50a",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "blendkill-1": {
+      "seconds": 0.56,
+      "gain": 0.7545912409591291,
+      "rms": 0.10264864960146193,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "flesh/unpacked/sword-1b.wav",
+          "start": 0,
+          "end": 0.27,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "07a4f6c191c549945c683dee4aa7ac8df16f2e953fc74fa955b1c1b05d1eea09",
+          "delay": 0,
+          "layer_gain": 1
+        },
+        {
+          "file": "flesh/unpacked/sword-arm-2b.wav",
+          "start": 0,
+          "end": 0.3,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "cda1b398a1786f1858d26793496ea884b18d46226e8cb442da35a1a875aa125b",
+          "delay": 0.095,
+          "layer_gain": 0.75
+        },
+        {
+          "file": "slime/unpacked/slime_02.ogg",
+          "start": 0,
+          "end": 0.35,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "a4ba1530c081706cb7ce8a08702c3552437561c33b851fe46e97d3232574320c",
+          "delay": 0.19,
+          "layer_gain": 0.4
+        }
+      ]
+    },
+    "bloodslam-1": {
+      "seconds": 0.98,
+      "gain": 1.0774790156374499,
+      "rms": 0.046476543335552525,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "stone/1022.ogg",
+          "start": 10.08,
+          "end": 10.8,
+          "rate": 0.78,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "e2ada01ff84c6e7f0240cc72b65f1e3ce0e7427f9320cbc1de30f77f2654da31",
+          "delay": 0,
+          "layer_gain": 0.75
+        },
+        {
+          "file": "flesh/unpacked/hammer-arm-2a.wav",
+          "start": 0,
+          "end": 0.37,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "3bd6b11c2c75544e8a2b7f62a80894dbdbe2a9a050328a0b7e0614a63466a6bf",
+          "delay": 0,
+          "layer_gain": 1
+        },
+        {
+          "file": "slime/unpacked/slime_02.ogg",
+          "start": 0,
+          "end": 0.4,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "a4ba1530c081706cb7ce8a08702c3552437561c33b851fe46e97d3232574320c",
+          "delay": 0.08,
+          "layer_gain": 0.4
+        }
+      ]
+    },
+    "hurt-1": {
+      "seconds": 0.27,
+      "gain": 0.47851530977355183,
+      "rms": 0.10999999999999999,
+      "peak": 0.6006255257277678,
+      "sources": [
+        {
+          "file": "flesh/unpacked/punch_1b.wav",
+          "start": 0,
+          "end": 0.27,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "8c0e9524b52cedfa7eb5a80e39072610b9a66c6fd3facd6843cff34952c1968b",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "coin-1": {
+      "seconds": 0.26,
+      "gain": 7.910450516097123,
+      "rms": 0.04904625437487392,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "coins/coinsounds011015.wav",
+          "start": 1.56,
+          "end": 1.82,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "58ea9a7191bf7ff370bf9bb06940802b378bd32d5800adaff4ad6173d13430af",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "pickup-1": {
+      "seconds": 0.16,
+      "gain": 0.5769476231190023,
+      "rms": 0.05999999999999999,
+      "peak": 0.5462633072506524,
+      "sources": [
+        {
+          "file": "interface/unpacked/Audio/pluck_002.ogg",
+          "start": 0,
+          "end": 0.16,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "c977fe249ff42d1c93a552b33abc13a8399df3879fa510475426e5c4bbac1da9",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "beast-1": {
+      "seconds": 1.062,
+      "gain": 0.7543005842845454,
+      "rms": 0.115,
+      "peak": 0.6310722542026637,
+      "sources": [
+        {
+          "file": "creatures/unpacked/roar_02.ogg",
+          "start": 0,
+          "end": null,
+          "rate": 0.85,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "ceb532ee0fe775d6f86a821099b75f1790ab8022b963cb837c8c1fa4fffee5c2",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "charge-1": {
+      "seconds": 0.56312,
+      "gain": 0.5271607528585577,
+      "rms": 0.10999999999999999,
+      "peak": 0.29262441634976816,
+      "sources": [
+        {
+          "file": "creatures/unpacked/grunt_02.ogg",
+          "start": 0,
+          "end": 0.58,
+          "rate": 0.95,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "76d78154f2f22b3f373bd3ec4ff0edabb459322f72adabfa285b738f37987cbb",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "rocket-1": {
+      "seconds": 0.72,
+      "gain": 1.7958961768884276,
+      "rms": 0.065,
+      "peak": 0.5925234876687685,
+      "sources": [
+        {
+          "file": "pyro/336008_4921277-hq.mp3",
+          "start": 0.12,
+          "end": 0.76,
+          "rate": 0.925,
+          "highpass": 1000,
+          "lowpass": 6500,
+          "sha256": "662c9cc0565d1256f29145a2ceca6868815df2a193c36cbb1e55858602dc0fa2",
+          "delay": 0,
+          "layer_gain": 8
+        },
+        {
+          "file": "fire/unpacked/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 7-Audio.wav",
+          "start": 0,
+          "end": 0.45,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "458d636dc9f4512c53f90ed65e37e0b68b1dfce1518c95f7606115fcd9a66922",
+          "delay": 0,
+          "layer_gain": 0.22
+        }
+      ]
+    },
+    "firework-1": {
+      "seconds": 0.74,
+      "gain": 1.7799064083276623,
+      "rms": 0.06500000000000002,
+      "peak": 0.4073364637260927,
+      "sources": [
+        {
+          "file": "pyro/336008_4921277-hq.mp3",
+          "start": 0.12,
+          "end": 0.76,
+          "rate": 0.925,
+          "highpass": 1000,
+          "lowpass": 6500,
+          "sha256": "662c9cc0565d1256f29145a2ceca6868815df2a193c36cbb1e55858602dc0fa2",
+          "delay": 0,
+          "layer_gain": 9
+        },
+        {
+          "file": "fire/unpacked/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 9-Audio.wav",
+          "start": 0,
+          "end": 0.4,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "8c4868b5cd5e788bb83da84fd1d33b0f1aee776884af966570860a7207b26619",
+          "delay": 0.02,
+          "layer_gain": 0.12
+        }
+      ]
+    },
+    "soulbreak-1": {
+      "seconds": 0.7,
+      "gain": 3.197114968811504,
+      "rms": 0.09266193701104469,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "ghost/ghostbreath.flac",
+          "start": 0.44999999999999996,
+          "end": 1.18,
+          "rate": 0.92,
+          "highpass": 100,
+          "lowpass": 6500,
+          "sha256": "f371839853a5dff7dbd5a8c81368f5cfab587f567df5ba962e981d4392c530bc",
+          "extra_envelope": {
+            "attack": 0.004,
+            "release": 0.2,
+            "reversed": false
+          },
+          "delay": 0,
+          "layer_gain": 0.65
+        },
+        {
+          "file": "bone/unpacked/Deep Break 5.wav",
+          "start": 0.04,
+          "end": 0.62,
+          "rate": 1.1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "f022ab586b20bd0ba9cace4e73be3091d44683dcbfca7853f2bcba60647cc882",
+          "delay": 0.025,
+          "layer_gain": 0.3
+        },
+        {
+          "file": "ice/342546_3562222-hq.mp3",
+          "start": 3.91,
+          "end": 4.36,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "b0fc5db758c884ed597de16c9c9093d3d91741dc02891f0f02ec0485861e8546",
+          "delay": 0.08,
+          "layer_gain": 0.22
+        }
+      ]
+    },
+    "necro-1": {
+      "seconds": 0.85,
+      "gain": 4.040188799609938,
+      "rms": 0.11,
+      "peak": 0.45035583833785703,
+      "sources": [
+        {
+          "file": "ghost/ghostbreath.flac",
+          "start": 1.37,
+          "end": 2.12,
+          "rate": 0.85,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "f371839853a5dff7dbd5a8c81368f5cfab587f567df5ba962e981d4392c530bc",
+          "extra_envelope": {
+            "attack": 0.004,
+            "release": 0.15,
+            "reversed": false
+          },
+          "delay": 0,
+          "layer_gain": 0.8
+        },
+        {
+          "file": "rattle/unpacked/4.ogg",
+          "start": 0,
+          "end": null,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "7135cd58456cc485aa327b5be033c925ac869a206623fc838f0244c001ee694e",
+          "delay": 0.18,
+          "layer_gain": 0.05
+        }
+      ]
+    },
+    "soulburst-1": {
+      "seconds": 0.68,
+      "gain": 3.316457581763107,
+      "rms": 0.10118053809822201,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "ghost/ghostbreath.flac",
+          "start": 0.44999999999999996,
+          "end": 1.18,
+          "rate": 0.92,
+          "highpass": 100,
+          "lowpass": 6500,
+          "sha256": "f371839853a5dff7dbd5a8c81368f5cfab587f567df5ba962e981d4392c530bc",
+          "extra_envelope": {
+            "attack": 0.004,
+            "release": 0.2,
+            "reversed": false
+          },
+          "delay": 0,
+          "layer_gain": 0.75
+        },
+        {
+          "file": "bone/unpacked/Deep Break 5.wav",
+          "start": 0.04,
+          "end": 0.62,
+          "rate": 1.1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "f022ab586b20bd0ba9cace4e73be3091d44683dcbfca7853f2bcba60647cc882",
+          "delay": 0,
+          "layer_gain": 0.42
+        }
+      ]
+    },
+    "rise-1": {
+      "seconds": 0.7,
+      "gain": 2.0199687257701053,
+      "rms": 0.06926254838455055,
+      "peak": 0.7200000000000001,
+      "sources": [
+        {
+          "file": "stone/1022.ogg",
+          "start": 10.08,
+          "end": 10.62,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "e2ada01ff84c6e7f0240cc72b65f1e3ce0e7427f9320cbc1de30f77f2654da31",
+          "extra_envelope": {
+            "attack": 0.004,
+            "release": 0.08,
+            "reversed": true
+          },
+          "delay": 0,
+          "layer_gain": 0.55
+        },
+        {
+          "file": "bone/unpacked/Deep Break 5.wav",
+          "start": 0.04,
+          "end": 0.62,
+          "rate": 1.1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "f022ab586b20bd0ba9cace4e73be3091d44683dcbfca7853f2bcba60647cc882",
+          "delay": 0.18,
+          "layer_gain": 0.6
+        }
+      ]
+    },
+    "siphon-1": {
+      "seconds": 0.56,
+      "gain": 2.221226600272851,
+      "rms": 0.053276578889368695,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "ghost/ghostbreath.flac",
+          "start": 0.44999999999999996,
+          "end": 1.18,
+          "rate": 0.92,
+          "highpass": 100,
+          "lowpass": 6500,
+          "sha256": "f371839853a5dff7dbd5a8c81368f5cfab587f567df5ba962e981d4392c530bc",
+          "extra_envelope": {
+            "attack": 0.004,
+            "release": 0.14,
+            "reversed": false
+          },
+          "delay": 0,
+          "layer_gain": 0.8
+        },
+        {
+          "file": "slime/unpacked/slime_02.ogg",
+          "start": 0,
+          "end": 0.4,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "a4ba1530c081706cb7ce8a08702c3552437561c33b851fe46e97d3232574320c",
+          "delay": 0.03,
+          "layer_gain": 0.25
+        }
+      ]
+    },
+    "bondbreak-1": {
+      "seconds": 0.38,
+      "gain": 0.6978363951557424,
+      "rms": 0.053923698355851285,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "chain/0359.ogg",
+          "start": 2.23,
+          "end": 2.7,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "9378a42d90408f2c5f1cb8a0815898f1623a014bf1d4b4e579b8909321db3238",
+          "delay": 0,
+          "layer_gain": 0.65
+        },
+        {
+          "file": "wood/unpacked/metal_hit_02.ogg",
+          "start": 0,
+          "end": 0.26,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "9074c0828727bd00834cabcaaf5b8cbff2cfad7b45676b95d86c0919e444f8b1",
+          "delay": 0.02,
+          "layer_gain": 0.8
+        }
+      ]
+    },
+    "corpsecough-2": {
+      "seconds": 0.98247,
+      "gain": 0.6090565238528011,
+      "rms": 0.10233550398133924,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "creatures/unpacked/cough_03.ogg",
+          "start": 0,
+          "end": null,
+          "rate": 0.85,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "1c307cd83cbda1f6860ed496e41ac27f105be801f168a22e6e359d3f9e563bb5",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "armoredstep-2": {
+      "seconds": 0.35,
+      "gain": 7.096953059339143,
+      "rms": 0.07086435090438203,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "footsteps/unpacked/footsteps/step_metal (3).ogg",
+          "start": 0,
+          "end": null,
+          "rate": 0.88,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "f4b5d7d4a129d83a1efa1963510c40262e577ad797a0007e53000d9cdfb35ffc",
+          "delay": 0,
+          "layer_gain": 1
+        },
+        {
+          "file": "chain/0359.ogg",
+          "start": 2.82,
+          "end": 3.11,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "9378a42d90408f2c5f1cb8a0815898f1623a014bf1d4b4e579b8909321db3238",
+          "delay": 0.025,
+          "layer_gain": 0.08
+        }
+      ]
+    },
+    "march-2": {
+      "seconds": 0.8,
+      "gain": 7.096986314811501,
+      "rms": 0.06348181603918474,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "footsteps/unpacked/footsteps/step_metal (3).ogg",
+          "start": 0,
+          "end": null,
+          "rate": 0.88,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "f4b5d7d4a129d83a1efa1963510c40262e577ad797a0007e53000d9cdfb35ffc",
+          "delay": 0,
+          "layer_gain": 1
+        },
+        {
+          "file": "footsteps/unpacked/footsteps/step_metal (4).ogg",
+          "start": 0,
+          "end": null,
+          "rate": 0.92,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "25db2a8e024ab51cd23dc66ef881b7f0c2d898c081e6feb105693e1dd5e2817f",
+          "delay": 0.25,
+          "layer_gain": 0.85
+        },
+        {
+          "file": "footsteps/unpacked/footsteps/step_metal (3).ogg",
+          "start": 0,
+          "end": null,
+          "rate": 0.88,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "f4b5d7d4a129d83a1efa1963510c40262e577ad797a0007e53000d9cdfb35ffc",
+          "delay": 0.5,
+          "layer_gain": 0.78
+        },
+        {
+          "file": "chain/0359.ogg",
+          "start": 2.82,
+          "end": 3.11,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "9378a42d90408f2c5f1cb8a0815898f1623a014bf1d4b4e579b8909321db3238",
+          "delay": 0.025,
+          "layer_gain": 0.1
+        }
+      ]
+    },
+    "executionerdraw-2": {
+      "seconds": 0.52778,
+      "gain": 4.404456760390865,
+      "rms": 0.0934758776764675,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "textures/unpacked/Katana Draw Fast.wav",
+          "start": 2.3,
+          "end": 2.68,
+          "rate": 0.72,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "cd1785c90dc4cbce6a7a3bcfec1f58cd7850dae1c14b49b290b4a08cf7d28c82",
+          "extra_envelope": {
+            "attack": 0.004,
+            "release": 0.08,
+            "reversed": false
+          },
+          "delay": 0,
+          "layer_gain": 1
+        },
+        {
+          "file": "chain/0359.ogg",
+          "start": 2.82,
+          "end": 3.11,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "9378a42d90408f2c5f1cb8a0815898f1623a014bf1d4b4e579b8909321db3238",
+          "delay": 0.13,
+          "layer_gain": 0.18
+        }
+      ]
+    },
+    "staff-2": {
+      "seconds": 0.18406,
+      "gain": 0.4410453009798622,
+      "rms": 0.115,
+      "peak": 0.5906010497480031,
+      "sources": [
+        {
+          "file": "swish/unpacked/swishes/swish-6.wav",
+          "start": 0,
+          "end": null,
+          "rate": 0.75,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "edcaacf008da7ae692566f4fe0d6023ea68d0a014149889e95209be7ee0b746d",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "blendkill-2": {
+      "seconds": 0.56,
+      "gain": 1.0164153790457828,
+      "rms": 0.10459690093157951,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "flesh/unpacked/piercing-arm-2a.wav",
+          "start": 0,
+          "end": 0.27,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "ebff57615f83f7b5fa26d88cdb9dd7b22185c77861fb7842046f8eea0cfda18b",
+          "delay": 0,
+          "layer_gain": 1
+        },
+        {
+          "file": "flesh/unpacked/sword-arm-2b.wav",
+          "start": 0,
+          "end": 0.3,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "cda1b398a1786f1858d26793496ea884b18d46226e8cb442da35a1a875aa125b",
+          "delay": 0.095,
+          "layer_gain": 0.75
+        },
+        {
+          "file": "slime/unpacked/slime_03.ogg",
+          "start": 0,
+          "end": 0.35,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "e78e0702ac671ae098537266cb6f9106d2402ed99b6554b1429327ec603c3dae",
+          "delay": 0.19,
+          "layer_gain": 0.4
+        }
+      ]
+    },
+    "bloodslam-2": {
+      "seconds": 0.98,
+      "gain": 0.8302563025306811,
+      "rms": 0.041907745770762006,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "stone/1022.ogg",
+          "start": 11.68,
+          "end": 12.4,
+          "rate": 0.78,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "e2ada01ff84c6e7f0240cc72b65f1e3ce0e7427f9320cbc1de30f77f2654da31",
+          "delay": 0,
+          "layer_gain": 0.75
+        },
+        {
+          "file": "flesh/unpacked/hammer-arm-2a.wav",
+          "start": 0,
+          "end": 0.37,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "3bd6b11c2c75544e8a2b7f62a80894dbdbe2a9a050328a0b7e0614a63466a6bf",
+          "delay": 0,
+          "layer_gain": 1
+        },
+        {
+          "file": "slime/unpacked/slime_03.ogg",
+          "start": 0,
+          "end": 0.4,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "e78e0702ac671ae098537266cb6f9106d2402ed99b6554b1429327ec603c3dae",
+          "delay": 0.08,
+          "layer_gain": 0.4
+        }
+      ]
+    },
+    "hurt-2": {
+      "seconds": 0.27,
+      "gain": 1.1652202785445935,
+      "rms": 0.09335165479540573,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "flesh/unpacked/hammer-1a.wav",
+          "start": 0,
+          "end": 0.27,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "5d78fe908b44b451b59f43f3faae0bd7c407b7ee26b5145221ab38aa356cdaeb",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "coin-2": {
+      "seconds": 0.26,
+      "gain": 6.866174478961846,
+      "rms": 0.07851902814456334,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "coins/coinsounds011015.wav",
+          "start": 2.26,
+          "end": 2.52,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "58ea9a7191bf7ff370bf9bb06940802b378bd32d5800adaff4ad6173d13430af",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "pickup-2": {
+      "seconds": 0.09713,
+      "gain": 0.9926341370660159,
+      "rms": 0.04448130577335661,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "interface/unpacked/Audio/click_001.ogg",
+          "start": 0,
+          "end": 0.16,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "ccfb7fa0cccdd9faec0eb16033c732b1e308d139d80f799161495d58f7adcdb9",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "beast-2": {
+      "seconds": 0.53934,
+      "gain": 0.5744639820078526,
+      "rms": 0.10672568026555461,
+      "peak": 0.7199999999999999,
+      "sources": [
+        {
+          "file": "creatures/unpacked/roar_03.ogg",
+          "start": 0,
+          "end": null,
+          "rate": 0.85,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "983396c808eb658ed3bd223ffaf9ea7f756dba7bc45ecc3fde117083026a4556",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "charge-2": {
+      "seconds": 0.61053,
+      "gain": 0.863884255392827,
+      "rms": 0.11,
+      "peak": 0.6909792591369103,
+      "sources": [
+        {
+          "file": "creatures/unpacked/grunt_03.ogg",
+          "start": 0,
+          "end": 0.58,
+          "rate": 0.95,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "f2a23b32fcf9cbdabf059339d346ce7eead018fda778067827e71b96936989f1",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "rocket-2": {
+      "seconds": 0.72,
+      "gain": 1.821766050882137,
+      "rms": 0.065,
+      "peak": 0.6444071810425369,
+      "sources": [
+        {
+          "file": "pyro/336008_4921277-hq.mp3",
+          "start": 0.2,
+          "end": 0.8400000000000001,
+          "rate": 0.9500000000000001,
+          "highpass": 1000,
+          "lowpass": 6500,
+          "sha256": "662c9cc0565d1256f29145a2ceca6868815df2a193c36cbb1e55858602dc0fa2",
+          "delay": 0,
+          "layer_gain": 8
+        },
+        {
+          "file": "fire/unpacked/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 7-Audio.wav",
+          "start": 0,
+          "end": 0.45,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "458d636dc9f4512c53f90ed65e37e0b68b1dfce1518c95f7606115fcd9a66922",
+          "delay": 0,
+          "layer_gain": 0.22
+        }
+      ]
+    },
+    "firework-2": {
+      "seconds": 0.74,
+      "gain": 1.8118466044588826,
+      "rms": 0.065,
+      "peak": 0.3193731507485098,
+      "sources": [
+        {
+          "file": "pyro/336008_4921277-hq.mp3",
+          "start": 0.2,
+          "end": 0.8400000000000001,
+          "rate": 0.9500000000000001,
+          "highpass": 1000,
+          "lowpass": 6500,
+          "sha256": "662c9cc0565d1256f29145a2ceca6868815df2a193c36cbb1e55858602dc0fa2",
+          "delay": 0,
+          "layer_gain": 9
+        },
+        {
+          "file": "fire/unpacked/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 9-Audio.wav",
+          "start": 0,
+          "end": 0.4,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "8c4868b5cd5e788bb83da84fd1d33b0f1aee776884af966570860a7207b26619",
+          "delay": 0.02,
+          "layer_gain": 0.12
+        }
+      ]
+    },
+    "soulbreak-2": {
+      "seconds": 0.7,
+      "gain": 1.8061859488095031,
+      "rms": 0.07285874571175689,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "ghost/ghostbreath.flac",
+          "start": 0.6,
+          "end": 1.33,
+          "rate": 0.92,
+          "highpass": 100,
+          "lowpass": 6500,
+          "sha256": "f371839853a5dff7dbd5a8c81368f5cfab587f567df5ba962e981d4392c530bc",
+          "extra_envelope": {
+            "attack": 0.004,
+            "release": 0.2,
+            "reversed": false
+          },
+          "delay": 0,
+          "layer_gain": 0.65
+        },
+        {
+          "file": "bone/unpacked/Deep Break 6.wav",
+          "start": 0.04,
+          "end": 0.62,
+          "rate": 1.1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "a77099e658240d2fdba970cec4068f82964867316781ee44c3a5f1737bc36c61",
+          "delay": 0.025,
+          "layer_gain": 0.3
+        },
+        {
+          "file": "ice/342546_3562222-hq.mp3",
+          "start": 3.91,
+          "end": 4.36,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "b0fc5db758c884ed597de16c9c9093d3d91741dc02891f0f02ec0485861e8546",
+          "delay": 0.08,
+          "layer_gain": 0.22
+        }
+      ]
+    },
+    "necro-2": {
+      "seconds": 0.85,
+      "gain": 4.198600335340642,
+      "rms": 0.11,
+      "peak": 0.46605091383727276,
+      "sources": [
+        {
+          "file": "ghost/ghostbreath.flac",
+          "start": 1.49,
+          "end": 2.24,
+          "rate": 0.85,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "f371839853a5dff7dbd5a8c81368f5cfab587f567df5ba962e981d4392c530bc",
+          "extra_envelope": {
+            "attack": 0.004,
+            "release": 0.15,
+            "reversed": false
+          },
+          "delay": 0,
+          "layer_gain": 0.8
+        },
+        {
+          "file": "rattle/unpacked/5.ogg",
+          "start": 0,
+          "end": null,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "373349b942bf0afc23e4c10f2fb481173116bc60f6a356c192a617a059b5923d",
+          "delay": 0.18,
+          "layer_gain": 0.05
+        }
+      ]
+    },
+    "soulburst-2": {
+      "seconds": 0.68,
+      "gain": 1.5090748751343872,
+      "rms": 0.07392330510208252,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "ghost/ghostbreath.flac",
+          "start": 0.6,
+          "end": 1.33,
+          "rate": 0.92,
+          "highpass": 100,
+          "lowpass": 6500,
+          "sha256": "f371839853a5dff7dbd5a8c81368f5cfab587f567df5ba962e981d4392c530bc",
+          "extra_envelope": {
+            "attack": 0.004,
+            "release": 0.2,
+            "reversed": false
+          },
+          "delay": 0,
+          "layer_gain": 0.75
+        },
+        {
+          "file": "bone/unpacked/Deep Break 6.wav",
+          "start": 0.04,
+          "end": 0.62,
+          "rate": 1.1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "a77099e658240d2fdba970cec4068f82964867316781ee44c3a5f1737bc36c61",
+          "delay": 0,
+          "layer_gain": 0.42
+        }
+      ]
+    },
+    "rise-2": {
+      "seconds": 0.7,
+      "gain": 1.0542078386185836,
+      "rms": 0.0648606118173404,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "stone/1022.ogg",
+          "start": 11.68,
+          "end": 12.22,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "e2ada01ff84c6e7f0240cc72b65f1e3ce0e7427f9320cbc1de30f77f2654da31",
+          "extra_envelope": {
+            "attack": 0.004,
+            "release": 0.08,
+            "reversed": true
+          },
+          "delay": 0,
+          "layer_gain": 0.55
+        },
+        {
+          "file": "bone/unpacked/Deep Break 6.wav",
+          "start": 0.04,
+          "end": 0.62,
+          "rate": 1.1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "a77099e658240d2fdba970cec4068f82964867316781ee44c3a5f1737bc36c61",
+          "delay": 0.18,
+          "layer_gain": 0.6
+        }
+      ]
+    },
+    "siphon-2": {
+      "seconds": 0.56,
+      "gain": 3.011322484080096,
+      "rms": 0.0811876334659366,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "ghost/ghostbreath.flac",
+          "start": 0.6,
+          "end": 1.33,
+          "rate": 0.92,
+          "highpass": 100,
+          "lowpass": 6500,
+          "sha256": "f371839853a5dff7dbd5a8c81368f5cfab587f567df5ba962e981d4392c530bc",
+          "extra_envelope": {
+            "attack": 0.004,
+            "release": 0.14,
+            "reversed": false
+          },
+          "delay": 0,
+          "layer_gain": 0.8
+        },
+        {
+          "file": "slime/unpacked/slime_03.ogg",
+          "start": 0,
+          "end": 0.4,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "e78e0702ac671ae098537266cb6f9106d2402ed99b6554b1429327ec603c3dae",
+          "delay": 0.03,
+          "layer_gain": 0.25
+        }
+      ]
+    },
+    "bondbreak-2": {
+      "seconds": 0.38,
+      "gain": 1.1605316130304837,
+      "rms": 0.0880391918370728,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "chain/0359.ogg",
+          "start": 2.82,
+          "end": 3.11,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "9378a42d90408f2c5f1cb8a0815898f1623a014bf1d4b4e579b8909321db3238",
+          "delay": 0,
+          "layer_gain": 0.65
+        },
+        {
+          "file": "wood/unpacked/metal_hit_03.ogg",
+          "start": 0,
+          "end": 0.26,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "9daf6e7e1fc1871acfb063cb25ce050faab559ee6c42fed84bf18a4067f26a4d",
+          "delay": 0.02,
+          "layer_gain": 0.8
+        }
+      ]
+    },
+    "howl": {
+      "seconds": 0.81475,
+      "gain": 0.5057856483708837,
+      "rms": 0.115,
+      "peak": 0.5486919236771629,
+      "sources": [
+        {
+          "file": "creatures/unpacked/howl.ogg",
+          "start": 0,
+          "end": null,
+          "rate": 0.88,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "e63e29a219dfbe64724525600f36db7aab6017145650ffbc92763f87181c7825",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "dragon": {
+      "seconds": 1.4,
+      "gain": 0.7018436185345541,
+      "rms": 0.14,
+      "peak": 0.5752719629835549,
+      "sources": [
+        {
+          "file": "roar/monster_roar.wav",
+          "start": 0.13,
+          "end": 1.48,
+          "rate": 0.95,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "040d2841619c732098c30a638731317d13d7647e5ce1a75a3246219ce4b162ff",
+          "extra_envelope": {
+            "attack": 0.004,
+            "release": 0.2,
+            "reversed": false
+          },
+          "delay": 0,
+          "layer_gain": 0.7
+        },
+        {
+          "file": "fire/unpacked/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 19-Audio.wav",
+          "start": 0,
+          "end": 1.2,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "2904f65ac6c3af0273ad237bb1ed1cb6928a43c124c8cd1d485d36e3d19ab37c",
+          "delay": 0.08,
+          "layer_gain": 0.4
+        }
+      ]
+    },
+    "warhorn": {
+      "seconds": 1.07,
+      "gain": 0.6673644563960287,
+      "rms": 0.11500000000000002,
+      "peak": 0.3410752356419008,
+      "sources": [
+        {
+          "file": "horn/539956_4366671-hq.mp3",
+          "start": 0.03,
+          "end": 1.1,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "15cee2dbc4123f3f3f77feaec39effb7371bc4938d634c9134e3c1091de95042",
+          "extra_envelope": {
+            "attack": 0.02,
+            "release": 0.22,
+            "reversed": false
+          },
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "boss": {
+      "seconds": 1.31113,
+      "gain": 0.7645502484568395,
+      "rms": 0.13,
+      "peak": 0.388505771109523,
+      "sources": [
+        {
+          "file": "horn/539956_4366671-hq.mp3",
+          "start": 0.03,
+          "end": 1.21,
+          "rate": 0.9,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "15cee2dbc4123f3f3f77feaec39effb7371bc4938d634c9134e3c1091de95042",
+          "extra_envelope": {
+            "attack": 0.03,
+            "release": 0.25,
+            "reversed": false
+          },
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "bloodready": {
+      "seconds": 0.52,
+      "gain": 0.8262341839486953,
+      "rms": 0.028653118283488013,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "textures/unpacked/Katana Draw Fast.wav",
+          "start": 0.24,
+          "end": 0.62,
+          "rate": 0.88,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "cd1785c90dc4cbce6a7a3bcfec1f58cd7850dae1c14b49b290b4a08cf7d28c82",
+          "extra_envelope": {
+            "attack": 0.004,
+            "release": 0.1,
+            "reversed": false
+          },
+          "delay": 0,
+          "layer_gain": 0.8
+        },
+        {
+          "file": "wood/unpacked/metal_hit_03.ogg",
+          "start": 0,
+          "end": 0.22,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "9daf6e7e1fc1871acfb063cb25ce050faab559ee6c42fed84bf18a4067f26a4d",
+          "delay": 0.28,
+          "layer_gain": 0.16
+        }
+      ]
+    },
+    "reaverready": {
+      "seconds": 0.44,
+      "gain": 2.7024358579229335,
+      "rms": 0.06181566989332628,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "textures/unpacked/Katana Draw Fast.wav",
+          "start": 1.3,
+          "end": 1.68,
+          "rate": 1.12,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "cd1785c90dc4cbce6a7a3bcfec1f58cd7850dae1c14b49b290b4a08cf7d28c82",
+          "extra_envelope": {
+            "attack": 0.004,
+            "release": 0.08,
+            "reversed": false
+          },
+          "delay": 0,
+          "layer_gain": 0.85
+        },
+        {
+          "file": "wood/unpacked/metal_hit_01.ogg",
+          "start": 0,
+          "end": 0.18,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "f5fd185fce454947c1d91ce6757e219c4d7c6c139d4aa9d419cd7a79c7f6df3b",
+          "delay": 0.23,
+          "layer_gain": 0.18
+        }
+      ]
+    },
+    "crowd-clap": {
+      "seconds": 0.195,
+      "gain": 1.1139293193749702,
+      "rms": 0.025096479413617534,
+      "peak": 0.7200000000000001,
+      "sources": [
+        {
+          "file": "clap/151219_140737-hq.mp3",
+          "start": 0.085,
+          "end": 0.28,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "a653c0d7ea9929d4ed7a6ef942accbf87d220c3542f071ffb60ca5827bf01442",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "crowd-applause": {
+      "seconds": 1.1,
+      "gain": 0.7295905514615753,
+      "rms": 0.06982634580441548,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "applause/500977_6110723-hq.mp3",
+          "start": 0.1,
+          "end": 1.2,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "d05987da7d133984a23a4865f7428449a11e032b68790bc700b2ee1d8bad5cae",
+          "extra_envelope": {
+            "attack": 0.03,
+            "release": 0.18,
+            "reversed": false
+          },
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "crowd-stomp": {
+      "seconds": 0.30491,
+      "gain": 11.037359610102458,
+      "rms": 0.0998228463802996,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "footsteps/unpacked/footsteps/step_lth1.ogg",
+          "start": 0,
+          "end": null,
+          "rate": 0.82,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "8abf47391e53218a4826a1419e4861ae7dae14df55c51a322f2fa2d4fab2005f",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "crowd-coin": {
+      "seconds": 0.36,
+      "gain": 5.953104787253888,
+      "rms": 0.07127223573179965,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "coins/coinsounds011015.wav",
+          "start": 0.19,
+          "end": 0.55,
+          "rate": 1,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "58ea9a7191bf7ff370bf9bb06940802b378bd32d5800adaff4ad6173d13430af",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "crowd-mug": {
+      "seconds": 0.34447,
+      "gain": 0.510629170630089,
+      "rms": 0.06221538530585952,
+      "peak": 0.7199999999999999,
+      "sources": [
+        {
+          "file": "wood/unpacked/wood_hit_03.ogg",
+          "start": 0,
+          "end": 0.31,
+          "rate": 0.9,
+          "highpass": 45,
+          "lowpass": 12500,
+          "sha256": "0f78a5cbe44d2ee45dfc1709f72af87bcbe5e3a8ad369b52535cfe6dbbd626a6",
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "level-reward": {
+      "seconds": 2.75,
+      "gain": 0.6470653458947174,
+      "rms": 0.09846097175225872,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "notify/unpacked/Level Up.mp3",
+          "start": 0,
+          "end": 2.75,
+          "rate": 1,
+          "highpass": 70,
+          "lowpass": 11500,
+          "sha256": "e4cb8e02fd932b50a331ba1451c554db4fbe474462b6ecb54a3f6096be1865d6",
+          "envelope": {
+            "attack": 0.004,
+            "release": 0.25,
+            "exponential_decay": 0
+          },
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "victory-fanfare": {
+      "seconds": 5.69,
+      "gain": 0.8365108366453416,
+      "rms": 0.12314102593282063,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "victory/Heavy_ConceptB.wav",
+          "start": 6.06,
+          "end": 11.75,
+          "rate": 1,
+          "highpass": 50,
+          "lowpass": 11500,
+          "sha256": "cf7aca1193530c804f41a22cfd9a2813c25d3c244fa96ad88c88c6206daa033d",
+          "envelope": {
+            "attack": 0.018,
+            "release": 0.4,
+            "exponential_decay": 0
+          },
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "warcry-human-0": {
+      "seconds": 0.84697,
+      "gain": 1.7184854063802328,
+      "rms": 0.09285566959035464,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "shout/469305_2927958-hq.mp3",
+          "start": 0,
+          "end": 0.83,
+          "rate": 0.98,
+          "highpass": 100,
+          "lowpass": 8000,
+          "sha256": "b9dfaf384e1282bf22c01a5087c49aefbe11e4a04ffeb8f6ec846e248e98b33b",
+          "envelope": {
+            "attack": 0.004,
+            "release": 0.1,
+            "exponential_decay": 0
+          },
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "warcry-enemy-0": {
+      "seconds": 0.96,
+      "gain": 2.1398034121086407,
+      "rms": 0.12000000000000001,
+      "peak": 0.7151145315677587,
+      "sources": [
+        {
+          "base_clip": "beast-0",
+          "base_sources": [
+            {
+              "file": "creatures/unpacked/roar_01.ogg",
+              "start": 0,
+              "end": null,
+              "rate": 0.85,
+              "highpass": 45,
+              "lowpass": 12500,
+              "sha256": "e9d44326860a1c3aba917684faccfd967a4fefa284d7df773e05ae890ec242e0",
+              "delay": 0,
+              "layer_gain": 1
+            }
+          ],
+          "start": 0,
+          "end": 0.85,
+          "rate": 0.88,
+          "highpass": 80,
+          "lowpass": 10000,
+          "envelope": {
+            "attack": 0.004,
+            "release": 0.12,
+            "exponential_decay": 0
+          },
+          "delay": 0,
+          "layer_gain": 0.8
+        },
+        {
+          "file": "shout/469305_2927958-hq.mp3",
+          "start": 0,
+          "end": 0.83,
+          "rate": 0.98,
+          "highpass": 100,
+          "lowpass": 8000,
+          "sha256": "b9dfaf384e1282bf22c01a5087c49aefbe11e4a04ffeb8f6ec846e248e98b33b",
+          "envelope": {
+            "attack": 0.004,
+            "release": 0.1,
+            "exponential_decay": 0
+          },
+          "delay": 0.015,
+          "layer_gain": 0.25
+        }
+      ]
+    },
+    "sonic-impact-0": {
+      "seconds": 0.2,
+      "gain": 2.3385615784893647,
+      "rms": 0.10000000000000002,
+      "peak": 0.694272461416122,
+      "sources": [
+        {
+          "base_clip": "pluck-50",
+          "base_sources": [
+            {
+              "file": "guitar/INSGuitarNylon_StringA_Vel02Pick_D3_01.ogg",
+              "start": 0,
+              "end": 1.5,
+              "rate": 1,
+              "highpass": 45,
+              "lowpass": 12500,
+              "sha256": "f7f380977b7c7634bb51d55dd84cde158bf80eea13db770c7fa6da190d958ed2",
+              "delay": 0,
+              "layer_gain": 1
+            }
+          ],
+          "start": 0,
+          "end": 0.18,
+          "rate": 0.98,
+          "highpass": 250,
+          "lowpass": 5500,
+          "envelope": {
+            "attack": 0.004,
+            "release": 0.05,
+            "exponential_decay": 23
+          },
+          "delay": 0,
+          "layer_gain": 1
+        },
+        {
+          "base_clip": "dash-0",
+          "base_sources": [
+            {
+              "file": "swish/unpacked/swishes/swish-1.wav",
+              "start": 0,
+              "end": null,
+              "rate": 0.85,
+              "highpass": 45,
+              "lowpass": 12500,
+              "sha256": "9a15c881345c1ce1c39cc31f52f081c8c4dc81fa41111e0079400f39d3ba0e45",
+              "delay": 0,
+              "layer_gain": 1
+            }
+          ],
+          "start": 0,
+          "end": 0.19,
+          "rate": 1.2,
+          "highpass": 400,
+          "lowpass": 6000,
+          "envelope": {
+            "attack": 0.004,
+            "release": 0.07,
+            "exponential_decay": 14
+          },
+          "delay": 0.008,
+          "layer_gain": 0.24
+        }
+      ]
+    },
+    "warcry-human-1": {
+      "seconds": 0.83,
+      "gain": 1.7007446713681582,
+      "rms": 0.09141264165896633,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "shout/469305_2927958-hq.mp3",
+          "start": 0,
+          "end": 0.83,
+          "rate": 1,
+          "highpass": 100,
+          "lowpass": 8000,
+          "sha256": "b9dfaf384e1282bf22c01a5087c49aefbe11e4a04ffeb8f6ec846e248e98b33b",
+          "envelope": {
+            "attack": 0.004,
+            "release": 0.1,
+            "exponential_decay": 0
+          },
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "warcry-enemy-1": {
+      "seconds": 0.96,
+      "gain": 1.3911737250128027,
+      "rms": 0.12,
+      "peak": 0.6914576163357261,
+      "sources": [
+        {
+          "base_clip": "beast-1",
+          "base_sources": [
+            {
+              "file": "creatures/unpacked/roar_02.ogg",
+              "start": 0,
+              "end": null,
+              "rate": 0.85,
+              "highpass": 45,
+              "lowpass": 12500,
+              "sha256": "ceb532ee0fe775d6f86a821099b75f1790ab8022b963cb837c8c1fa4fffee5c2",
+              "delay": 0,
+              "layer_gain": 1
+            }
+          ],
+          "start": 0,
+          "end": 0.85,
+          "rate": 0.88,
+          "highpass": 80,
+          "lowpass": 10000,
+          "envelope": {
+            "attack": 0.004,
+            "release": 0.12,
+            "exponential_decay": 0
+          },
+          "delay": 0,
+          "layer_gain": 0.8
+        },
+        {
+          "file": "shout/469305_2927958-hq.mp3",
+          "start": 0,
+          "end": 0.83,
+          "rate": 1,
+          "highpass": 100,
+          "lowpass": 8000,
+          "sha256": "b9dfaf384e1282bf22c01a5087c49aefbe11e4a04ffeb8f6ec846e248e98b33b",
+          "envelope": {
+            "attack": 0.004,
+            "release": 0.1,
+            "exponential_decay": 0
+          },
+          "delay": 0.015,
+          "layer_gain": 0.25
+        }
+      ]
+    },
+    "sonic-impact-1": {
+      "seconds": 0.2,
+      "gain": 2.3106623453884616,
+      "rms": 0.1,
+      "peak": 0.7003959588932644,
+      "sources": [
+        {
+          "base_clip": "pluck-50",
+          "base_sources": [
+            {
+              "file": "guitar/INSGuitarNylon_StringA_Vel02Pick_D3_01.ogg",
+              "start": 0,
+              "end": 1.5,
+              "rate": 1,
+              "highpass": 45,
+              "lowpass": 12500,
+              "sha256": "f7f380977b7c7634bb51d55dd84cde158bf80eea13db770c7fa6da190d958ed2",
+              "delay": 0,
+              "layer_gain": 1
+            }
+          ],
+          "start": 0,
+          "end": 0.18,
+          "rate": 1,
+          "highpass": 250,
+          "lowpass": 5500,
+          "envelope": {
+            "attack": 0.004,
+            "release": 0.05,
+            "exponential_decay": 23
+          },
+          "delay": 0,
+          "layer_gain": 1
+        },
+        {
+          "base_clip": "dash-1",
+          "base_sources": [
+            {
+              "file": "swish/unpacked/swishes/swish-2.wav",
+              "start": 0,
+              "end": null,
+              "rate": 0.85,
+              "highpass": 45,
+              "lowpass": 12500,
+              "sha256": "1ce7752cce3d43f16fc222ad7f7ffb69d9a5fc01e64b93d205765fc37b8e9b0d",
+              "delay": 0,
+              "layer_gain": 1
+            }
+          ],
+          "start": 0,
+          "end": 0.19,
+          "rate": 1.2,
+          "highpass": 400,
+          "lowpass": 6000,
+          "envelope": {
+            "attack": 0.004,
+            "release": 0.07,
+            "exponential_decay": 14
+          },
+          "delay": 0.008,
+          "layer_gain": 0.24
+        }
+      ]
+    },
+    "warcry-human-2": {
+      "seconds": 0.81375,
+      "gain": 1.625826932813962,
+      "rms": 0.08709242696550062,
+      "peak": 0.72,
+      "sources": [
+        {
+          "file": "shout/469305_2927958-hq.mp3",
+          "start": 0,
+          "end": 0.83,
+          "rate": 1.02,
+          "highpass": 100,
+          "lowpass": 8000,
+          "sha256": "b9dfaf384e1282bf22c01a5087c49aefbe11e4a04ffeb8f6ec846e248e98b33b",
+          "envelope": {
+            "attack": 0.004,
+            "release": 0.1,
+            "exponential_decay": 0
+          },
+          "delay": 0,
+          "layer_gain": 1
+        }
+      ]
+    },
+    "warcry-enemy-2": {
+      "seconds": 0.96,
+      "gain": 1.2715988897783062,
+      "rms": 0.08288226174629368,
+      "peak": 0.72,
+      "sources": [
+        {
+          "base_clip": "beast-2",
+          "base_sources": [
+            {
+              "file": "creatures/unpacked/roar_03.ogg",
+              "start": 0,
+              "end": null,
+              "rate": 0.85,
+              "highpass": 45,
+              "lowpass": 12500,
+              "sha256": "983396c808eb658ed3bd223ffaf9ea7f756dba7bc45ecc3fde117083026a4556",
+              "delay": 0,
+              "layer_gain": 1
+            }
+          ],
+          "start": 0,
+          "end": 0.85,
+          "rate": 0.88,
+          "highpass": 80,
+          "lowpass": 10000,
+          "envelope": {
+            "attack": 0.004,
+            "release": 0.12,
+            "exponential_decay": 0
+          },
+          "delay": 0,
+          "layer_gain": 0.8
+        },
+        {
+          "file": "shout/469305_2927958-hq.mp3",
+          "start": 0,
+          "end": 0.83,
+          "rate": 1.02,
+          "highpass": 100,
+          "lowpass": 8000,
+          "sha256": "b9dfaf384e1282bf22c01a5087c49aefbe11e4a04ffeb8f6ec846e248e98b33b",
+          "envelope": {
+            "attack": 0.004,
+            "release": 0.1,
+            "exponential_decay": 0
+          },
+          "delay": 0.015,
+          "layer_gain": 0.25
+        }
+      ]
+    },
+    "sonic-impact-2": {
+      "seconds": 0.2,
+      "gain": 2.2603767264365766,
+      "rms": 0.1,
+      "peak": 0.6994822639044295,
+      "sources": [
+        {
+          "base_clip": "pluck-50",
+          "base_sources": [
+            {
+              "file": "guitar/INSGuitarNylon_StringA_Vel02Pick_D3_01.ogg",
+              "start": 0,
+              "end": 1.5,
+              "rate": 1,
+              "highpass": 45,
+              "lowpass": 12500,
+              "sha256": "f7f380977b7c7634bb51d55dd84cde158bf80eea13db770c7fa6da190d958ed2",
+              "delay": 0,
+              "layer_gain": 1
+            }
+          ],
+          "start": 0,
+          "end": 0.18,
+          "rate": 1.02,
+          "highpass": 250,
+          "lowpass": 5500,
+          "envelope": {
+            "attack": 0.004,
+            "release": 0.05,
+            "exponential_decay": 23
+          },
+          "delay": 0,
+          "layer_gain": 1
+        },
+        {
+          "base_clip": "dash-2",
+          "base_sources": [
+            {
+              "file": "swish/unpacked/swishes/swish-3.wav",
+              "start": 0,
+              "end": null,
+              "rate": 0.85,
+              "highpass": 45,
+              "lowpass": 12500,
+              "sha256": "55b100e2c67fa43dad8510e31e85bbd51a68d5ce84a6e0259e21e19030083e24",
+              "delay": 0,
+              "layer_gain": 1
+            }
+          ],
+          "start": 0,
+          "end": 0.19,
+          "rate": 1.2,
+          "highpass": 400,
+          "lowpass": 6000,
+          "envelope": {
+            "attack": 0.004,
+            "release": 0.07,
+            "exponential_decay": 14
+          },
+          "delay": 0.008,
+          "layer_gain": 0.24
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "applause",
+      "title": "Applause, small audience 500977",
+      "author": "nervousneal",
+      "url": "https://freesound.org/people/nervousneal/sounds/500977/",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "delivery": "Freesound HQ MP3 preview"
+    },
+    {
+      "id": "bone",
+      "title": "deep bone crackbreak sfx",
+      "author": "ZaneLittleMusic",
+      "url": "https://opengameart.org/content/deep-bone-crackbreak-sfx",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "delivery": "Original downloadable file"
+    },
+    {
+      "id": "cannon",
+      "title": "Cannon 187767",
+      "author": "qubodup",
+      "url": "https://freesound.org/people/qubodup/sounds/187767/",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "delivery": "Freesound HQ MP3 preview"
+    },
+    {
+      "id": "chain",
+      "title": "Heavy chain 0359",
+      "author": "Denis Chardonnet / BigSoundBank",
+      "url": "https://bigsoundbank.com/grosse-chaine-s0359.html",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "delivery": "Original downloadable file"
+    },
+    {
+      "id": "clap",
+      "title": "Solo Clap 151219",
+      "author": "OwlStorm / Ashe Kirk / Owlish Media",
+      "url": "https://freesound.org/people/OwlStorm/sounds/151219/",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "delivery": "Freesound HQ MP3 preview"
+    },
+    {
+      "id": "clock",
+      "title": "Winding mechanism 586150",
+      "author": "ChemiCatz",
+      "url": "https://freesound.org/people/ChemiCatz/sounds/586150/",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "delivery": "Freesound HQ MP3 preview"
+    },
+    {
+      "id": "coins",
+      "title": "coin sounds",
+      "author": "syncopika",
+      "url": "https://opengameart.org/content/coin-sounds",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "delivery": "Original downloadable file"
+    },
+    {
+      "id": "creatures",
+      "title": "80 CC0 creature SFX",
+      "author": "rubberduck",
+      "url": "https://opengameart.org/content/80-cc0-creature-sfx",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "delivery": "Original downloadable file"
+    },
+    {
+      "id": "electric",
+      "title": "electricity sound effects 0",
+      "author": "BMacZero / Brian MacIntosh",
+      "url": "https://opengameart.org/content/electricity-sound-effects-0",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "delivery": "Original downloadable file"
+    },
+    {
+      "id": "explode",
+      "title": "Explosion 171971",
+      "author": "qubodup; source recording by sidohzen",
+      "url": "https://freesound.org/people/qubodup/sounds/171971/",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "delivery": "Freesound HQ MP3 preview"
+    },
+    {
+      "id": "fire",
+      "title": "fire staff sound effects",
+      "author": "LEGIT Audio",
+      "url": "https://opengameart.org/content/fire-staff-sound-effects",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "delivery": "Original downloadable file"
+    },
+    {
+      "id": "flesh",
+      "title": "fleshy fight sounds",
+      "author": "Will Leamon",
+      "url": "https://opengameart.org/content/fleshy-fight-sounds",
+      "license": "OGA-BY-3.0",
+      "license_url": "https://static.opengameart.org/OGA-BY-3.0.txt",
+      "delivery": "Original downloadable file"
+    },
+    {
+      "id": "footsteps",
+      "title": "Footsteps Leather, Cloth, Armor",
+      "author": "HaelDB / Brandon Morris",
+      "url": "https://opengameart.org/content/footsteps-leather-cloth-armor",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "delivery": "Original downloadable file"
+    },
+    {
+      "id": "ghost",
+      "title": "Ghost breath",
+      "author": "qubodup",
+      "url": "https://opengameart.org/content/ghost-breath",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "delivery": "Original downloadable file"
+    },
+    {
+      "id": "guitar",
+      "title": "Meta Nylon Guitar",
+      "author": "Meta Open Sound contributors",
+      "url": "https://github.com/facebookincubator/Meta-open-sound/tree/main/systems/instruments/meta-nylon-guitar",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "delivery": "Original downloadable file"
+    },
+    {
+      "id": "gun",
+      "title": "the free firearm sound library",
+      "author": "Ben Jaszczak / Still North Media",
+      "url": "https://opengameart.org/content/the-free-firearm-sound-library",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "delivery": "Original downloadable file"
+    },
+    {
+      "id": "horn",
+      "title": "war horn.wav 539956",
+      "author": "adharca",
+      "url": "https://freesound.org/people/adharca/sounds/539956/",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "delivery": "Freesound HQ MP3 preview"
+    },
+    {
+      "id": "ice",
+      "title": "Ice crackling 342546",
+      "author": "timbreknight",
+      "url": "https://freesound.org/people/timbreknight/sounds/342546/",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "delivery": "Freesound HQ MP3 preview"
+    },
+    {
+      "id": "inhale",
+      "title": "Inhale 65620",
+      "author": "otherthings",
+      "url": "https://freesound.org/people/otherthings/sounds/65620/",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "delivery": "Freesound HQ MP3 preview"
+    },
+    {
+      "id": "interface",
+      "title": "Interface Sounds",
+      "author": "Kenney",
+      "url": "https://opengameart.org/content/interface-sounds",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "delivery": "Original downloadable file"
+    },
+    {
+      "id": "pyro",
+      "title": "Whistle and Explosion Single_Firework 336008",
+      "author": "Rudmer_Rotteveel",
+      "url": "https://freesound.org/people/Rudmer_Rotteveel/sounds/336008/",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "delivery": "Freesound HQ MP3 preview"
+    },
+    {
+      "id": "rattle",
+      "title": "bones rattle",
+      "author": "congusbongus; original recording by blukotek",
+      "url": "https://opengameart.org/content/bones-rattle",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "delivery": "Original downloadable file"
+    },
+    {
+      "id": "roar",
+      "title": "CC0 Deep Monster Roar",
+      "author": "trazzz123",
+      "url": "https://opengameart.org/content/cc0-deep-monster-roar",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "delivery": "Original downloadable file"
+    },
+    {
+      "id": "shotgun",
+      "title": "shotgun reload sound effects",
+      "author": "zer0_sol",
+      "url": "https://opengameart.org/content/shotgun-reload-sound-effects",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "delivery": "Original downloadable file"
+    },
+    {
+      "id": "slime",
+      "title": "40 cc0 water splash slime sfx",
+      "author": "rubberduck",
+      "url": "https://opengameart.org/content/40-cc0-water-splash-slime-sfx",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "delivery": "Original downloadable file"
+    },
+    {
+      "id": "stone",
+      "title": "Fall of Stone 1022",
+      "author": "Joseph SARDIN / BigSoundBank",
+      "url": "https://bigsoundbank.com/fall-of-stone-s1022.html",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "delivery": "Original downloadable file"
+    },
+    {
+      "id": "swish",
+      "title": "swishes sound pack",
+      "author": "artisticdude",
+      "url": "https://opengameart.org/content/swishes-sound-pack",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "delivery": "Original downloadable file"
+    },
+    {
+      "id": "sword",
+      "title": "20 sword sound effects attacks and clashes",
+      "author": "StarNinjas",
+      "url": "https://opengameart.org/content/20-sword-sound-effects-attacks-and-clashes",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "delivery": "Original downloadable file"
+    },
+    {
+      "id": "textures",
+      "title": "medieval sound effects weapon textures",
+      "author": "Ben Jaszczak and Brian Nelson / Still North Media",
+      "url": "https://opengameart.org/content/medieval-sound-effects-weapon-textures",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "delivery": "Original downloadable file"
+    },
+    {
+      "id": "tree",
+      "title": "tree chop fall thud",
+      "author": "kheetor",
+      "url": "https://opengameart.org/content/tree-chop-fall-thud",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "delivery": "Original downloadable file"
+    },
+    {
+      "id": "wood",
+      "title": "100 cc0 metal and wood sfx",
+      "author": "rubberduck",
+      "url": "https://opengameart.org/content/100-cc0-metal-and-wood-sfx",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "delivery": "Original downloadable file"
+    },
+    {
+      "id": "notify",
+      "title": "7 Assorted Sound Effects (Menu, Level Up)",
+      "author": "Joth",
+      "url": "https://opengameart.org/content/7-assorted-sound-effects-menu-level-up",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "delivery": "Original downloadable file"
+    },
+    {
+      "id": "victory",
+      "title": "Victory Fanfare Short",
+      "author": "cynicmusic",
+      "url": "https://opengameart.org/content/victory-fanfare-short",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "delivery": "Original downloadable file"
+    },
+    {
+      "id": "shout",
+      "title": "Voice Shout #01",
+      "author": "bolkmar",
+      "url": "https://freesound.org/people/bolkmar/sounds/469305/",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "delivery": "Freesound HQ MP3 preview"
+    }
+  ],
+  "preparation": "Sources trimmed, mono downmixed, resampled to 32 kHz, high/low-pass filtered, sometimes layered or rate-adjusted, edge-faded, RMS/peak limited, and quantized to signed 16-bit PCM. Exact per-clip recipe and source hash follow."
+}

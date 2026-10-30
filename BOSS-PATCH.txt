@@ -1,0 +1,24 @@
+BRIARFORD SURVIVORS — BOSS CLOSE-COMBAT FIX
+
+CHANGES
+- All nine campaign bosses now have a close-range basic strike between specials: a swipe/backhand, directional sword cut or staff strike using existing rig animations.
+- Basics have a 0.7–0.8 second cone warning, fixed aim, one damage event, a 0.65 second recovery, and a 2.6 second cooldown measured from release. Damage uses 75% of the boss's existing base damage and the normal scaling/mitigation path.
+- Ready specials take priority. Signature cooldowns continue ticking during basic attacks. Basics never replace an active special or its recovery/stagger.
+- Boss bodies separate the player from their center. Dashes, leaps and active Impale traversal are permitted; overlap resolves when traversal ends. Facing remains stable at zero distance.
+- Separation respects scenery and map bounds. If already overlapping scenery, it allows movement out but not deeper into it or through a new obstacle.
+- Dash invulnerability, Hold the Line protection and Showtime interruption remain effective.
+- No map HP, global damage multipliers, items, progression or music settings changed. The previous audio pass remains included.
+
+TESTS
+- All nine boss basic attacks: correct windup, single hit and valid rig clip.
+- Sidesteps tested on Troll King, Ancient Lich, Knight King and Ancient Wyrm: no damage outside the committed cone.
+- Ready-special priority, basic-to-special handoff, recovery, stun/freeze/fear/phase interruption, Showtime interruption and missing-center direction checked.
+- Center overlap from four entry directions, dash passage/end, scenery obstacle and twin-boss separation checked.
+- Rotting Corpse stayed stationary with its rear safe during inhale/bite/recovery. Ancient Lich retained the full 3.2-second earned soul-break stagger.
+- Eight-second isolated Troll King gameplay-loop test: three basic strikes, 63 damage; body separation held.
+- Nine 30-second gameplay-loop scenarios with normal boss specials and real map scenery: every boss dealt damage and used 6–9 basics. No persistent body overlap, browser exceptions, audio warnings or asset failures.
+
+These are targeted browser regression checks, not full progression/balance runs or physical-device tests. Live-cycle test heroes had inflated health so entire sequences could be observed; these results do not represent normal player survivability.
+
+INSTALL
+Upload this complete ZIP with index.html at the root, just like the previous build.

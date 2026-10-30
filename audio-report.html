@@ -1,0 +1,257 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Briarford Audio Report 3</title><style>body{margin:0;background:#f2f0eb;color:#202630;font:16px/1.55 system-ui}main{max-width:850px;margin:auto;padding:24px}h1{font-size:28px;line-height:1.2}article{background:white;border-left:4px solid #a66f23;padding:16px;margin:12px 0}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:15px/1.6 system-ui}summary{cursor:pointer;font-weight:bold}small{color:#525e6a}</style><main><h1>Briarford Survivors<br>Audio report · Pass 3</h1><p><b>4 main cues replaced · 99 / 105 now sourced · 6 remaining</b></p><p>Added level-up, victory, human/enemy war cries and sonic impact. No balance changes.</p><h2>Still on the old synthesis</h2><article><b>Magic casting</b><br><small>arcane</small></article><article><b>Magic impacts</b><br><small>arcanehit</small></article><article><b>Summoning / magical mend</b><br><small>summon</small></article><article><b>Enemy telegraph warning</b><br><small>warning</small></article><article><b>Phasing / teleport</b><br><small>phase</small></article><article><b>Enemy / elite buff</b><br><small>bolster</small></article><h2>Full change and test report</h2><pre>BRIARFORD SURVIVORS — AUDIO PASS 3
+
+ADDED
+- Level up: rising sourced reward cue, trimmed to 2.75 seconds including decay. Fixed pitch keeps notifications consistent.
+- Victory: a 5.69-second resolving phrase from a sourced victory fanfare, including its natural decay. Fixed pitch.
+- War cry: recorded human shout with three subtle variants. Enemy war cry uses a separate deeper creature blend and retains source ownership for cancellation.
+- Sonic impact: a 0.20-second damped string/air transient with three variants. The solo bard previously suppressed every sonic impact. It now plays this short hit at 55% of normal impact volume under the song, with the existing 0.16-second retrigger limit and impact voice limit. Missing-bank fallback retains the old solo suppression.
+
+COVERAGE
+99 of 105 main SFX cues now use sourced audio. Six remain on the old synthesis. The separate enemy war-cry variant does not inflate the 105-cue denominator. Counts describe routed sound cues, not unique abilities or a claim of final sound quality.
+
+STILL USING OLD SYNTHESIS
+- arcane: generic magic casting.
+- arcanehit: generic magical projectile and pet impacts.
+- summon: summoning and magical mend.
+- warning: enemy telegraph warning.
+- phase: phasing / teleport transitions.
+- bolster: enemy/elite buff rise.
+
+OUTSIDE THIS COUNT
+Background-score instruments remain synthesized; prerecorded bard songs are unchanged. Five bard crowd effects, the Bladestorm loop and sampled bard strings retain prior sourced audio. Legacy synthesis remains as a recovery path if the bank is unavailable.
+
+VERIFICATION
+- All 105 registered cue buffers and 276 sourced cue/variant paths passed.
+- All 13 available builds passed short mobile-viewport Chromium smoke checks.
+- Actual levelUp() and endRun(true) dispatched the new notification buffers at fixed pitch.
+- Human/enemy cry buffers are distinct. Solo bard impact gain and retrigger rejection checked.
+- Mute, voice cleanup/caps, owner cancellation and missing-bank fallback passed.
+- 12-second / 144-event mix including the new cues: peak 0.4938, RMS 0.0959, 0 clipping-threshold samples.
+- All 166 existing clip recipes and their PCM bytes preserved exactly.
+- No browser errors, audio warnings or failed asset requests.
+
+These are browser and numerical checks, not a physical iPhone/Android listening session or subjective final approval. Gameplay balance was not changed or retested.
+
+SOURCES
+Joth — 7 Assorted Sound Effects (Menu, Level Up), CC0.
+cynicmusic — Victory Fanfare Short, CC0.
+bolkmar — Voice Shout #01, CC0; available HQ MP3 preview used.
+Sonic and enemy-cry layers reuse previously credited source clips. Full URLs, licenses and edit recipes are included in AUDIO-CREDITS.txt and audio-manifest.json.
+
+INSTALL
+Upload the complete ZIP contents with index.html at the root. Sounds are packaged locally; no runtime asset-site downloads.
+</pre><details><summary>Sources and licenses</summary><pre>BRIARFORD SURVIVORS — SOUND CREDITS
+
+Additional Sound FX by Will Leamon
+Fleshy Fight Sounds: OGA-BY 3.0. Full license included in OGA-BY-3.0.txt.
+
+Sources trimmed, mono downmixed, resampled to 32 kHz, high/low-pass filtered, sometimes layered or rate-adjusted, edge-faded, RMS/peak limited, and quantized to signed 16-bit PCM. Exact per-clip recipe and source hash follow.
+Derived pass-3 clips retain their original base-clip recipe and sources.
+Licenses apply to the named audio sources, not to the entire game. No creator endorsement is implied.
+
+Applause, small audience 500977
+By: nervousneal
+Source: https://freesound.org/people/nervousneal/sounds/500977/
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Download: Freesound HQ MP3 preview
+
+deep bone crackbreak sfx
+By: ZaneLittleMusic
+Source: https://opengameart.org/content/deep-bone-crackbreak-sfx
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Download: Original downloadable file
+
+Cannon 187767
+By: qubodup
+Source: https://freesound.org/people/qubodup/sounds/187767/
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Download: Freesound HQ MP3 preview
+
+Heavy chain 0359
+By: Denis Chardonnet / BigSoundBank
+Source: https://bigsoundbank.com/grosse-chaine-s0359.html
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Download: Original downloadable file
+
+Solo Clap 151219
+By: OwlStorm / Ashe Kirk / Owlish Media
+Source: https://freesound.org/people/OwlStorm/sounds/151219/
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Download: Freesound HQ MP3 preview
+
+Winding mechanism 586150
+By: ChemiCatz
+Source: https://freesound.org/people/ChemiCatz/sounds/586150/
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Download: Freesound HQ MP3 preview
+
+coin sounds
+By: syncopika
+Source: https://opengameart.org/content/coin-sounds
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Download: Original downloadable file
+
+80 CC0 creature SFX
+By: rubberduck
+Source: https://opengameart.org/content/80-cc0-creature-sfx
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Download: Original downloadable file
+
+electricity sound effects 0
+By: BMacZero / Brian MacIntosh
+Source: https://opengameart.org/content/electricity-sound-effects-0
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Download: Original downloadable file
+
+Explosion 171971
+By: qubodup; source recording by sidohzen
+Source: https://freesound.org/people/qubodup/sounds/171971/
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Download: Freesound HQ MP3 preview
+
+fire staff sound effects
+By: LEGIT Audio
+Source: https://opengameart.org/content/fire-staff-sound-effects
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Download: Original downloadable file
+
+fleshy fight sounds
+By: Will Leamon
+Source: https://opengameart.org/content/fleshy-fight-sounds
+License: OGA-BY-3.0 — https://static.opengameart.org/OGA-BY-3.0.txt
+Download: Original downloadable file
+
+Footsteps Leather, Cloth, Armor
+By: HaelDB / Brandon Morris
+Source: https://opengameart.org/content/footsteps-leather-cloth-armor
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Download: Original downloadable file
+
+Ghost breath
+By: qubodup
+Source: https://opengameart.org/content/ghost-breath
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Download: Original downloadable file
+
+Meta Nylon Guitar
+By: Meta Open Sound contributors
+Source: https://github.com/facebookincubator/Meta-open-sound/tree/main/systems/instruments/meta-nylon-guitar
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Download: Original downloadable file
+
+the free firearm sound library
+By: Ben Jaszczak / Still North Media
+Source: https://opengameart.org/content/the-free-firearm-sound-library
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Download: Original downloadable file
+
+war horn.wav 539956
+By: adharca
+Source: https://freesound.org/people/adharca/sounds/539956/
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Download: Freesound HQ MP3 preview
+
+Ice crackling 342546
+By: timbreknight
+Source: https://freesound.org/people/timbreknight/sounds/342546/
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Download: Freesound HQ MP3 preview
+
+Inhale 65620
+By: otherthings
+Source: https://freesound.org/people/otherthings/sounds/65620/
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Download: Freesound HQ MP3 preview
+
+Interface Sounds
+By: Kenney
+Source: https://opengameart.org/content/interface-sounds
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Download: Original downloadable file
+
+Whistle and Explosion Single_Firework 336008
+By: Rudmer_Rotteveel
+Source: https://freesound.org/people/Rudmer_Rotteveel/sounds/336008/
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Download: Freesound HQ MP3 preview
+
+bones rattle
+By: congusbongus; original recording by blukotek
+Source: https://opengameart.org/content/bones-rattle
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Download: Original downloadable file
+
+CC0 Deep Monster Roar
+By: trazzz123
+Source: https://opengameart.org/content/cc0-deep-monster-roar
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Download: Original downloadable file
+
+shotgun reload sound effects
+By: zer0_sol
+Source: https://opengameart.org/content/shotgun-reload-sound-effects
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Download: Original downloadable file
+
+40 cc0 water splash slime sfx
+By: rubberduck
+Source: https://opengameart.org/content/40-cc0-water-splash-slime-sfx
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Download: Original downloadable file
+
+Fall of Stone 1022
+By: Joseph SARDIN / BigSoundBank
+Source: https://bigsoundbank.com/fall-of-stone-s1022.html
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Download: Original downloadable file
+
+swishes sound pack
+By: artisticdude
+Source: https://opengameart.org/content/swishes-sound-pack
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Download: Original downloadable file
+
+20 sword sound effects attacks and clashes
+By: StarNinjas
+Source: https://opengameart.org/content/20-sword-sound-effects-attacks-and-clashes
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Download: Original downloadable file
+
+medieval sound effects weapon textures
+By: Ben Jaszczak and Brian Nelson / Still North Media
+Source: https://opengameart.org/content/medieval-sound-effects-weapon-textures
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Download: Original downloadable file
+
+tree chop fall thud
+By: kheetor
+Source: https://opengameart.org/content/tree-chop-fall-thud
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Download: Original downloadable file
+
+100 cc0 metal and wood sfx
+By: rubberduck
+Source: https://opengameart.org/content/100-cc0-metal-and-wood-sfx
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Download: Original downloadable file
+
+7 Assorted Sound Effects (Menu, Level Up)
+By: Joth
+Source: https://opengameart.org/content/7-assorted-sound-effects-menu-level-up
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Download: Original downloadable file
+
+Victory Fanfare Short
+By: cynicmusic
+Source: https://opengameart.org/content/victory-fanfare-short
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Download: Original downloadable file
+
+Voice Shout #01
+By: bolkmar
+Source: https://freesound.org/people/bolkmar/sounds/469305/
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Download: Freesound HQ MP3 preview
+
+The bard uses sampled nylon guitar, not a recorded historical lute.
+</pre></details></main></html>

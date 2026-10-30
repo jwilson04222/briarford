@@ -1,0 +1,24 @@
+BRIARFORD SURVIVORS — PROGRESSION STABILIZATION CANDIDATE
+
+Ascension
+- Quaking and Explosive now apply their percentage-health damage once. They no longer multiply that fraction again by elapsed time, map damage and Ascension damage. Touch assistance, armor and existing defensive abilities still apply.
+- Ascension elites enter wave pools from 90 seconds onward, replacing the map-dependent third-wave rule that introduced them at 35 seconds in Duskmoor.
+- Duskmoor's Ascension elite population ramps from at most 3 before the first boss, to 4 before the second, to 5 afterward. Existing lower tier caps still apply.
+- Bonded pairs resist 60% damage while linked, down from 90%. Separating the pair still removes the resistance.
+- Grievous bleeding ends after 4 seconds without taking damage, or after healing above half health. Existing command protection still applies.
+- Sanguine pools heal ordinary enemies for 5% maximum health per second, elites for 2%, and bosses for 0.5%. Bosses may recover at most 5% maximum health from Sanguine over the entire fight. Overlapping pools do not multiply healing.
+- Bolstering grants bosses 2% health and damage per stack, down from 5%. Elites retain 5%; both stop at 10 stacks.
+- Shieldbearer affixes block frontal direct attacks consistently, including attacks with no knockback. Rear attacks, recovery openings and periodic damage bypass the directional shield.
+- Blood Moon doubles lifesteal and disables natural regeneration. Other recovery is now consistently normal strength. Its description has been corrected.
+- Ascension descriptions show the actual maximum of 5 simultaneous elites. Early Dusk correctly describes the existing final-boss arrival at 9:30.
+
+Clockwork
+- Overclock now matches its advertised double fire rate. Overclock and nearby Overdrive Core add their speed bonuses, giving 3x combined fire rate before Oiled Gears, instead of multiplying to approximately 4.44x.
+- Field Repair's rank-three damage bonus now applies to turret attacks as described, instead of increasing every weapon's damage.
+- Eight-turret limit, mobile regrouping, Bastion cannon and five-piece Siege Salvo remain in place.
+
+Scope
+- This candidate preserves the current art, audio, boss basic attacks and collision changes, save keys, vault costs and campaign unlock sequence.
+- No new skills, enemies or Endless mode were added.
+- Includes index.html and all existing assets. Upload the complete package contents to the host; keep the folders beside index.html.
+- This is a tested balance candidate, not a claim that every build and modifier combination is equally tuned. See the accompanying review for results and remaining outliers.

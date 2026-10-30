@@ -1,0 +1,42 @@
+BRIARFORD SURVIVORS — AUDIO PASS 3
+
+ADDED
+- Level up: rising sourced reward cue, trimmed to 2.75 seconds including decay. Fixed pitch keeps notifications consistent.
+- Victory: a 5.69-second resolving phrase from a sourced victory fanfare, including its natural decay. Fixed pitch.
+- War cry: recorded human shout with three subtle variants. Enemy war cry uses a separate deeper creature blend and retains source ownership for cancellation.
+- Sonic impact: a 0.20-second damped string/air transient with three variants. The solo bard previously suppressed every sonic impact. It now plays this short hit at 55% of normal impact volume under the song, with the existing 0.16-second retrigger limit and impact voice limit. Missing-bank fallback retains the old solo suppression.
+
+COVERAGE
+99 of 105 main SFX cues now use sourced audio. Six remain on the old synthesis. The separate enemy war-cry variant does not inflate the 105-cue denominator. Counts describe routed sound cues, not unique abilities or a claim of final sound quality.
+
+STILL USING OLD SYNTHESIS
+- arcane: generic magic casting.
+- arcanehit: generic magical projectile and pet impacts.
+- summon: summoning and magical mend.
+- warning: enemy telegraph warning.
+- phase: phasing / teleport transitions.
+- bolster: enemy/elite buff rise.
+
+OUTSIDE THIS COUNT
+Background-score instruments remain synthesized; prerecorded bard songs are unchanged. Five bard crowd effects, the Bladestorm loop and sampled bard strings retain prior sourced audio. Legacy synthesis remains as a recovery path if the bank is unavailable.
+
+VERIFICATION
+- All 105 registered cue buffers and 276 sourced cue/variant paths passed.
+- All 13 available builds passed short mobile-viewport Chromium smoke checks.
+- Actual levelUp() and endRun(true) dispatched the new notification buffers at fixed pitch.
+- Human/enemy cry buffers are distinct. Solo bard impact gain and retrigger rejection checked.
+- Mute, voice cleanup/caps, owner cancellation and missing-bank fallback passed.
+- 12-second / 144-event mix including the new cues: peak 0.4938, RMS 0.0959, 0 clipping-threshold samples.
+- All 166 existing clip recipes and their PCM bytes preserved exactly.
+- No browser errors, audio warnings or failed asset requests.
+
+These are browser and numerical checks, not a physical iPhone/Android listening session or subjective final approval. Gameplay balance was not changed or retested.
+
+SOURCES
+Joth — 7 Assorted Sound Effects (Menu, Level Up), CC0.
+cynicmusic — Victory Fanfare Short, CC0.
+bolkmar — Voice Shout #01, CC0; available HQ MP3 preview used.
+Sonic and enemy-cry layers reuse previously credited source clips. Full URLs, licenses and edit recipes are included in AUDIO-CREDITS.txt and audio-manifest.json.
+
+INSTALL
+Upload the complete ZIP contents with index.html at the root. Sounds are packaged locally; no runtime asset-site downloads.

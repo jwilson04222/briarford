@@ -1,0 +1,13 @@
+BRIARFORD MUSIC UPDATE
+
+Briarford now plays Sinious Groove, supplied by the developer, in place of its procedural soundtrack. Kings Grave and Duskmoor retain their existing music.
+
+The track loops and follows music volume, music on/off, global mute, run pause, and page visibility. Both bard builds retain their musical priority so the map track does not compete with their performances. Playback starts after a user gesture, as required by mobile browsers.
+
+The supplied MP3 was stream-copied without audio re-encoding, with quiet edge padding shortened and embedded cover art removed. Packaged duration: 177.384 seconds. This is full-track looping, not a beat-matched crossfade.
+
+Music credit: Sinious Groove — supplied by the developer. This track is separate from the third-party sound-effect licenses listed in AUDIO-CREDITS.txt.
+
+Validation: Chromium with touch/mobile viewport; actual media playback and nonzero audio output, volume, mute, music toggle, pause/resume, simulated page visibility, both bard transitions, switching among maps, rapid switching, and playback wrapping at the end. No runtime errors or failed asset requests. MP3 fully decoded successfully with FFmpeg. Physical iPhone/Android playback was not tested in this pass.
+
+All prior game assets and the boss close-range attack/body collision fix are preserved. No balance or normal sound-effect changes in this update.
