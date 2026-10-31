@@ -35,3 +35,64 @@ Packed Powder: +25%/+50%/+75% (was +15%/+30%/+45%). At max rank this is a 20.69%
 Blast sizes, projectile counts, cooldowns, control durations, invulnerability and map stats unchanged. Halberd fixes and testing unlocks retained.
 
 10 paired seeded full gameplay runs: Duskmoor IV 0/2 -> 2/2; Duskmoor V 0/2 -> 0/2; regular Duskmoor with 4 items/stat rank 4 1/1 -> 1/1. Small sample, not a player win-rate estimate. V remains unconfirmed; one run improved by 128.4 seconds, the other ended 10.1 seconds sooner.
+
+
+Bone targeting patch
+
+Automatic Bone Spear and Bone Lance focus a reachable live boss, considering all bosses including Twins. Dead, phased and out-of-range bosses are ignored. Stolen souls and manual aim retain priority.
+Automatic cages prioritize a reachable boss over nearby ordinary foes. Existing cast conditions, range and cooldown are retained.
+Half the existing Rib Shards prioritize a boss inside the active cage; the other half still target surrounding caged enemies. A lone caged boss receives all shards.
+A normal foe within 12 units of contact and outside the boss firing lane can divert aim for 0.45s, at most once per 1.8s. Rooted/stunned/frozen foes do not trigger this exception.
+No damage, projectile counts, area, cooldown, map stats, or Halo interaction changes. Demo buff, Halberd fixes and testing unlocks retained.
+
+Testing patch: vault stat upgrades now cost zero gold. Failed vault writes display a warning. No combat balance changes.
+
+Demo control: one-thumb kegs wait for manual detonation and favor pursuing bosses. Three of six keg rockets focus a reachable boss. Every third automatic Candle shot passes through adds toward a boss. Shorter player-relative explosion push with a 0.2s displacement gate. Damage values unchanged. Ascension conditions visible before Play; twin boss gets separate HUD health.
+
+Endless: The Last Stand arena, full rank-one starting kit, mixed controlled encounters, separate scaling and results.
+
+Endless roster expanded with Chain Warden, Tempest Oracle and Thorn Matriarch. No balance/scaling changes.
+
+Build-specific loadouts and immutable run gear. Endless chest refill and compacted-XP lodestone recovery. Existing combat/XP scaling unchanged.
+
+Bishop vampire encounter: owned costume, bite/feed/bat movement, claw attack, recorded layered audio, mobile servant targeting. Existing boss HP and progression scaling preserved.
+
+Endless: all three events, repeatable post-cap training, slower health scaling, larger controlled waves. Twelve bosses including vampire Bishop. Campaign unchanged.
+
+Halberd visual fix: decode normalized model coordinates before generating split-enemy geometry. Combat, movement and balance unchanged.
+
+Virulence display correction: replace stored BASE DOT/s with a live estimated DOT/s readout that includes Virulence, elapsed-time DOT scaling, target bonuses, relevant debuffs/gear, armor and average critical damage. Underlying damage, cooldown, duration and Contagion transfer potency are unchanged. Includes the previous Halberd cleave fix.
+
+BRIARFORD SURVIVORS — AFFIX PRESENTATION & BOSS COMBAT PASS
+October 31, 2026
+
+AFFIX PRESENTATION
+All eight enemy affixes now share authored illustrated badges between menus and combat. Each menu card explains the effect and the counter. The pause guide opens directly, with a scrollable card list and separate controls in phone landscape. Endless starts its briefing with explanations rather than an unexplained name list. Campaign difficulty and rolled mutator explanations use the same readable layout.
+Affixed enemies receive distinct body details: a rally standard, coin satchel, fangs, phase veils, linked cuffs, heavy shoulders, directional shield, or hourglass and marked Null boundary. Support tethers use outlined streams; Bonded uses physical chain links. Recipient badges no longer stack directly over the primary affix badge.
+Rot Pods use a pulsing organic model. All gas trap placement paths use the canister model. Existing acid-pool presentation is preserved.
+
+BOSS TIMING & ATTACKS
+Boss warnings are generally 15% shorter. Minimum times preserve large repositioning moves, soul reaping and leaps. Both shared leap users move continuously through a parabolic arc to a locked, terrain-valid landing destination.
+Undead Knight King: Execution March warning 1.2s -> 0.85s; advance 1.8s -> 1.05s; thrust tell 0.85s -> 0.32s; recovery 1.35s -> 1.15s. Direction stays locked.
+Attack animation staging advances into the contact frame at the end of the warning. The thrust windup now advances instead of leaving its animation paused.
+Rotting Corpse: replaces poison horseshoe with three successive bile spits. Each landing is marked and locked; later spits target your new position. Puddles last four seconds. Inhale still leaves a safe rear opening and clears that boss's previous hazards when it begins.
+Dread Fiend: replaces fire horseshoe with Cinder Wake, three advancing marked fire bands.
+Ancient Lich: replaces fire horseshoe with Soul Shear, two perpendicular soul lanes through the initially marked position. Soul Reaping remains.
+Quake follow-ups run on game time instead of browser timers, synchronizing warning, damage and pause behavior.
+
+VFX
+Boss earth impacts now reach the upgraded effect path previously restricted to elites. Falling meteors use the upgraded meteor renderer. Boss weapon strikes use inked moving arcs. Fire turret jets originate at the muzzle and use the included transparent flame artwork with animated flow, shared with fire breath/lines. Soul lanes use flowing trails and sculpted skulls. Hostile fire pools now use scorched ground instead of spinning legacy flame decals.
+Artwork: assets/comic-flame-jet.png, generated using the built-in image tool and integrated as a real runtime texture. The standalone HTML embeds it.
+This is not a claim that every boss mechanic is unique: Troll King and Gallows Brute still share slam/quake families. Existing Bishop and three Endless-exclusive boss mechanics remain, with tighter telegraphs. Endless event mechanics were not redesigned in this patch.
+
+PLAGUE
+Removed undocumented Wither pulse knockback for Plaguebringer. Its overlapping slows use the strongest effect instead of adding toward immobility. Rank-four Aura of Decay applies its advertised 60% slow. Damage, aura radii, enemy health and progression formulas are unchanged.
+Controlled durable-enemy reproduction: before, 0/30 enemies crossed 15 units inside the aura in 30s. After, 30/30 crossed within 5s and 26/30 reached melee range by 10s. This isolates movement behavior, not clear-rate balance.
+
+VALIDATION
+31 attack paths across the twelve-boss Endless roster exercised in the live browser engine, with rendered frames inspected. Targeted reruns cover changed quake scheduling, fire rendering and soul lanes.
+Continuous airborne positions and height verified for both leap users. Knight King reached thrust impact at approximately 2.25s versus the former 3.85s.
+Actual update-loop bile test: standing still lost 172 HP; moving away from marked positions lost 0 HP under the same controlled setup.
+Phase transitions, bond separation, Null inside/outside behavior, support buffer bounds, poison models, pause/resume touch interaction and three mobile viewport layouts checked. Chromium viewports 844x390, 800x360 and 1024x768. Not physical iPhone/Android hardware testing or a fresh full balance matrix.
+Previous Virulence display and Halberd cleave fixes retained byte-for-byte.
+All previous package assets preserved; one new flame texture added. Existing test unlocks remain enabled.

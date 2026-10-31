@@ -1,0 +1,35 @@
+BRIARFORD SURVIVORS — NINE ENDLESS ENCOUNTERS & SHIELD CARRY
+October 31, 2026 · v15
+
+ENDLESS EVENTS
+The former Break the Siege, Blood Hunt and Grave Harvest events have been removed from the event pool and briefing. Nine encounters now rotate without repeating until the full deck has been used; the first event of a new deck cannot repeat the last event of the previous deck.
+
+Death Bell — Fight within the bell's boundary to charge it with defeated enemies. Each toll banks an Endless training reward. Leave the boundary for 1.5 seconds to claim your banked rewards, or remain for stronger reinforcements and up to three tolls. No interaction button required.
+Wild Hunt — Five wolves circle the player and take turns committing to clearly marked lunges. Their locked paths give a sidestep opening.
+Champion's Challenge — An armored knight fights with alternating cuts and a longer thrust. Ambient spawn pressure drops during the duel.
+Hollow Champion — At 55% health the outer armor breaks. The same health bar continues; the exposed champion moves and attacks faster but takes 30% more damage.
+Ravenous Mass — Devours nearby ordinary enemies. Up to six growth steps increase its size, reach and damage, while also increasing damage taken. Feeding does not restore its health.
+Buried Colossus — Exposed head and articulated hands use one shared health pool. Alternating hand strikes reach toward locked impact marks, followed by a forward bite.
+Drowned Host — Six undead leave temporary connected trails. Water does not block movement or abilities. The host pauses and marks its trails before a discharge; crossing beforehand is safe.
+Carrion Queen — Circles in the air, commits to a marked dive, then remains grounded for five seconds. Grounded damage taken increases by 35%. Brood reinforcements add pressure.
+Hungry Earth — Three stationary mouths lock their facing before inhaling and biting. Their backs remain safe. Dash and leap resist the pull, and the bite also consumes ordinary enemies.
+
+Successful encounters grant run-only Endless training choices. The bell can grant up to three. Failed or expired encounters clean up their actors, props and hazards and allow the run to continue. Events and normal bosses do not overlap. Existing upgrade-choice spacing remains in effect.
+Event reinforcements use reserved population room rather than being blocked by ambient wave limits. Total population remains capped. Endless permits up to 4 early, 6 middle and 8 late ranged enemies, with a lower cap of 3 during bosses. Shared attack pacing limits projectile pressure.
+
+ART & MOBILE PRESENTATION
+Affix badges above enemies shrink from 19 to 12 world units; menu and pause-guide icons keep their existing size.
+The event HUD displays the objective, time and progress. Notices appear below it rather than covering the instructions or health display.
+Static pieces of the new articulated models are batched by material to reduce draw calls; jaws, wings and hands still animate independently.
+Wild Hunt reuses the existing wolf. Champions reuse the Ironbound model, with breakable outer armor for Hollow Champion. Drowned Host reuses undead models with added details. The bell, Mass, Colossus, Queen and Earth mouths use new code-built meshes.
+
+SHIELD CARRY
+Undead Knight King, Graveguard, Bone Knight and Ironbound shields now face outward from the body while staying attached to the animated left-hand grip. Their orientation is corrected after animation and raised-shield posing, including idle, movement, sword swings and shield advances. Existing weapon models are preserved.
+
+CHECKS
+Automated checks cover all nine event success and timeout paths; one-time and three-toll rewards; three complete no-repeat rotations; leaving an encounter; Hungry Earth's safe rear, committed facing and dash protection; Drowned Host warning/damage timing; armor break, feeding growth, grounded Queen windows and cleanup.
+Shield transforms were checked across four enemy types, six poses and ten facing samples per pose. Browser layout checks use 844x390, 1024x768 and 667x375 viewports. Short build compatibility checks cover the 13 menu builds.
+These are functional and visual browser checks, not real-device FPS measurements or long-run balance results.
+
+UPLOAD
+Upload this ZIP to Netlify as the site folder bundle. index.html and the assets directory are at the archive root. Keep the whole package together. This remains the unlocked testing build.

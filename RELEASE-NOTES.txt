@@ -1,3 +1,6 @@
+CURRENT PATCH: v15 — nine Endless events, smaller affix badges and corrected enemy shields.
+See PATCH-NOTES.txt for this update and its validation scope.
+
 BRIARFORD SURVIVORS — PROGRESSION STABILIZATION CANDIDATE
 
 Ascension

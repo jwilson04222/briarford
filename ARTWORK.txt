@@ -1,0 +1,7 @@
+Runtime artwork
+Mode: new transparent image generated with built-in imagegen.
+Output: assets/comic-flame-jet.png
+Used by flame jets/breath/lines; original generated raster preserved.
+
+Prompt:
+Use case: stylized-concept. Production game VFX texture, not a concept scene. One horizontal flamethrower jet isolated on a genuinely transparent background, 3:1 wide composition. Narrow origin at the left edge around vertical center, flowing and widening moderately toward the right, ending in several long curling tongues of fire, all traveling LEFT TO RIGHT. Hand-painted high quality comic-book fantasy action game art, clean sharp silhouette, molten orange outer tongues, brilliant yellow core, pale warm ivory hottest center, small restrained dark burnt-orange edge accents. The flame must read clearly at a small size. Rich organic licks and nested flame shapes, dynamic tapered streaks, slight irregular asymmetry. Keep the whole flame in frame with modest transparent padding. No weapon, nozzle, character, scenery, smoke clouds, ground, interface, text, numbers, borders, checkerboard, or separate unrelated particles. This image will be used directly as an animated flame stream texture on a camera-facing quad inside a 3D mobile game.
