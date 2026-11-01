@@ -1,0 +1,40 @@
+COMBAT HUD READABILITY UPDATE — October 31, 2026
+Based on Briarford-Unlocked-New-Models.zip with the Trapper targeting fix.
+
+PRESENTATION
+- Combat panels now use the menu's comic heading font, ink borders, deep blue
+  backgrounds and gold accents. Body instructions use clear high-contrast type.
+- Health and level share one compact panel. Health numbers are larger; low
+  health changes their color and the panel border without a flashing effect.
+- Timer, gold and kills have a compact panel with readable numbers.
+- Boss names and attack warnings are larger. HP values remain exact. Twin boss
+  information remains supported.
+- Endless cards separate the encounter title, countdown badge, progress and
+  instructions. Instructions are retained in full. A countdown under ten
+  seconds changes badge color. Death Bell retains toll/soul progress rather
+  than replacing it with objective health.
+- Boss and event cards share a row when both are active. Temporary notices
+  are positioned below active cards instead of overlapping them.
+- Temporary alerts regain clear headings and a remaining-time underline.
+- Command labels and cooldown badges are larger and higher contrast. Longer
+  Fury/Sunder status uses two lines above the button. Button hit areas and
+  movement controls are unchanged.
+
+VALIDATION
+- Syntax validation passed.
+- 44 layout cases at 667x375, 844x390, 1024x768 and 1280x800: normal HUD,
+  all nine event cards and simultaneous boss/event/notice display.
+- Checked panel bounds, text overflow, boss/event separation and notice layout.
+- Five command layouts checked at the smallest viewport: Greatsword, Sword
+  and Shield, Sonic Bard, Clockwork and Demolition. Included high level/health
+  values, long command status, cooldown text and badge overlap assertions.
+- Screenshots inspected in the actual WebGL game. No browser runtime errors.
+- Viewport tests do not measure native iPhone/iPad/Android performance.
+
+PRESERVED
+All model and audio assets, encounter integration, Trapper targeting changes,
+combat balance, progression and save rules are unchanged.
+
+UPLOAD
+Upload the full ZIP to Netlify. index.html remains at the archive root.
+New version tags on game.js and combat-hud.css avoid the old cached UI.

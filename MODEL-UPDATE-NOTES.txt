@@ -1,0 +1,61 @@
+BRIARFORD — TRIPO ENCOUNTER MODEL UPDATE
+October 31, 2026
+
+INSTALL
+This is the complete game bundle, based on Briarford-Unlocked (2).zip.
+Upload this ZIP as the Netlify site bundle, or extract it and serve the folder.
+index.html is at the archive root. Keep the assets directory with the game.
+The live hosted game has not been changed by this local update.
+
+MODELS INSTALLED
+Champion's Challenge: revised silver-and-blue Champion body, separate blue
+shield and separate sword attached to its animated hands. The sword's extra
+lower guard is narrowed locally during preparation. Original rejected Champion
+is not included in the game.
+Hollow Champion: the approved dark armored model, a separate sword, and an
+outer armor layer that disappears at the existing 55% health transition.
+Ravenous Mass, Buried Colossus, Carrion Queen, Hungry Earth: approved Tripo
+models replace their procedural encounter bodies.
+Wild Hunt: all five pack wolves use the approved gray wolf model.
+Death Bell and Drowned Host retain their existing art. Other wolf summons and
+campaign bosses are not changed by this encounter-specific update.
+
+ANIMATION AND PRESENTATION
+Local lightweight skeletal controls animate walking, wolf gait, Champion
+attacks, wings, jaws, head movement and Colossus hand strikes. Death poses are
+handled separately. These are procedural animations, not paid Tripo clips.
+Meshes are aligned to the game's forward axis and scaled for their encounter.
+Hungry Earth is shortened to fit its ground-mouth role.
+Colossus bone weights use its texture to keep soil still during hand movement.
+Imported textures are capped at 1024 pixels on mobile, using the existing
+texture-recovery path. Per-instance geometry/materials/skeletons are cleaned
+up when encounters leave or corpses expire.
+
+SPAWN CORRECTION
+Encounter objectives can initialize their source enemy inside the active
+event's reserved slots without being blocked by normal enemy-type limits
+or the early-game elite lockout. The overall population cap still applies.
+Normal wave spawning retains its existing limits.
+
+VALIDATION
+JavaScript syntax checks passed.
+All nine encounter spawn/actor/cleanup paths exercised over 900 simulated
+frames each (30 seconds at 30 Hz), with no browser errors. Attack types were
+observed for all seven imported actor roles. Hollow armor disappearance and
+separate Champion weapon/shield attachment were checked.
+All seven imported encounters were defeated through the actual death path;
+each completed, produced corpses, and rendered without exceptions.
+The real game loop was run with all seven imported encounters, including
+normal surrounding spawns and attack effects, without loop or console errors.
+Desktop (1280x800) and mobile landscape (844x390) views were inspected.
+The test harness used a fixed seed and inflated player health. No harness,
+test health, debug globals or browser-test dependencies are shipped here.
+
+LIMITATIONS
+Procedural rigs are a first animation pass. Limb bends and weapon grips can
+still benefit from hand-authored animation polish. Real-phone frame rate and
+long Endless survival balance have not been measured in this session.
+
+CREDITS
+No additional Tripo generation, rigging or conversion credits were used for
+this integration. Last verified API balance remains 600 credits.

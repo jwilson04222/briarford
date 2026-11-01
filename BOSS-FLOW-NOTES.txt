@@ -1,0 +1,36 @@
+BRIARFORD SURVIVORS — BOSS FLOW & PURSUIT
+
+DREAD FIEND
+Replaces the generic leap, three fire lines, and Cinder Wake with two connected, grounded attacks.
+Twin Claws: two sweeping claw strikes, each with its own locked cone warning. The second swing aims again before its warning begins. The rear is safe; contact follows the visible sweep, with one hit per swing. The original dual-wield animation is staged through anticipation, contact, and follow-through.
+Furnace Rush: a marked, grounded rush accelerates and decelerates along a fixed route. A separate warning marks the torn trail before its fissure erupts. The trail uses dark molten cracks, rock fragments, and embers. It does not create persistent fire pools or a projectile fan.
+Below half health, the second swing warning and fissure warning become slightly shorter. All phases retain warnings and recovery opportunities.
+Close-range claw attacks are only selected when the target is actually within reach.
+
+BISHOP OF DUSKMOOR
+Predator's Bite: stalking reduced from 1.1 to 0.42 seconds; a fixed 0.85-second lane warning precedes a smooth grounded lunge. Collision uses the swept route rather than only checking the endpoint. A hit no longer abruptly stops the lunge.
+Night Flight: the curved bat route now passes through the player's position locked at the start of the warning. Flight accelerates and decelerates smoothly; the whole route is warned first.
+Blood Tithe: two servants approach during a maximum 3.6-second feeding window, replacing three servants and up to nine seconds of inactivity. Killing both before either feeds, or dealing 2.5% of the boss's maximum health during the channel, interrupts the feast. Denial grants a 1.5-second stagger and vulnerability window. Successful servants heal at most 1% each, with a 4% lifetime cap on this move's healing.
+Blood Hunger: below 40% health, the bite gains a second lunge with a fresh 0.8-second warning. No instant retargeting during either lunge.
+These two bosses' special cooldowns now advance during their attacks and recoveries, rather than silently adding that time to every cooldown. Only one special can be active at a time.
+Both reworks are shared by campaign and Endless spawn definitions. Boss health and attack damage have not received a general stat increase.
+
+BOSS PURSUIT & CROWD CONTROL
+Boss slow cap reduced from 80% to 25%. All normal and elite enemy slow behavior is retained.
+Repeated roots can hold a boss for at most 0.4 seconds before a two-second resistance window. This also covers direct root applications from traps, shield attacks, and leap attacks, which previously bypassed the stun resistance path. Roots and stuns share the resistance window.
+Fear briefly staggers a boss instead of making it flee. Existing boss freeze-to-brittle behavior and Shatter opportunities are retained.
+Bosses using the regular movement controller approach 20% faster. Above 160 units of separation they accelerate into a pursuit run, settling back to normal approach speed within 90 units. Pursuit uses the same movement and collision controller; it does not teleport, modify the player's speed, shorten warnings, or accelerate committed attacks. Bespoke scripted event movement is not rewritten by this rule.
+
+VALIDATION
+Attack sequences checked at 30, 60, and 120 simulation steps per second: resolution, movement continuity, bounded hits, fixed aim, safe rear/side positions, separate follow-up warnings, feed interruption/healing cap, cancellation, cleanup, and terrain stopping.
+Repeated-root tests at all three rates held bosses for approximately 2.0–2.2 seconds over twelve seconds of continuous root applications, rather than the entire twelve seconds.
+Controlled eight-second straight-line pursuit comparisons covered Dread Fiend, Bishop, Undead Knight King, Rotting Corpse, and Ancient Lich, with and without maximum slows. These are movement tests, not simulated human clear rates.
+Full game-loop attack and movement checks, mobile Chromium render checks, and a staged real-engine movement preview. Physical iPhone/iPad play remains necessary to judge the final feel.
+
+DESIGN REFERENCES
+The Game Bakers' Furi interview: movement as an exchange, clear risk/reward, and fair punishment.
+https://www.gog.com/en/news/gog_interview_the_game_bakers_and_furis_success
+Benjamin Le Moullec's account of Furi encounter design: distinct boss identities expressed in animation and combat rhythm.
+https://cronosthenewdawndesign.substack.com/p/designing-memorable-boss-fights-lessons
+Stunlock's V Rising boss breakdown: hunting and feeding behavior tied to the creature's identity.
+https://blog.playstation.com/2024/06/03/v-rising-devs-deep-drive-into-boss-encounters-coming-to-ps5-june-11/

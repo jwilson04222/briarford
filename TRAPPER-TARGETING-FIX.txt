@@ -1,0 +1,34 @@
+TRAPPER AUTO-AIM FIX — October 31, 2026
+Based on the supplied Briarford-Unlocked-New-Models.zip.
+
+FIX
+Removed the Trapper gun's indefinite target retention, including its stronger
+Locked N Loaded lock. Nearby threats can now replace a distant living target.
+Visible reachable enemies take priority over offscreen enemies. Nearby packs
+take priority over distant targets, including caught enemies and bosses.
+Within that group, the gun chooses useful shotgun-fan coverage, with modest
+boss/trapped-enemy preference and aim stability between similar targets.
+The selector reconsiders every 0.12 seconds; immediate contact threats bypass
+that delay. Both barrels refresh their target before creating pellets.
+Two-thumb manual aiming still overrides automatic selection. A reachable
+stolen soul keeps its special attack priority. Lone distant enemies remain
+valid fallback targets while pellets can reach them.
+
+SCOPE
+No damage, knockback, gear, cooldown, map or progression values were changed.
+Clockwork's target-selection behavior remains unchanged.
+All supplied encounter models, rigging and assets are preserved.
+
+TESTS
+Ten before/after target-selection cases: normal and hot-load distant locks,
+caught-target and boss locks, immediate contact, dead targets, offscreen
+fallback, hot-load expiration, aim stability and Clockwork regression.
+Actual shotgun projectile directions checked for both barrels and manual aim.
+Ten-second real game-loop checks at 844x390 and 1024x768, with real skeletons,
+projectile collisions and rendering. Test health inflated to isolate targeting.
+These checks verify targeting and runtime behavior, not long-run class balance
+or native-device performance. Test hooks are not included in the game.
+
+INSTALL
+Upload this complete ZIP as your Netlify site bundle. index.html is at root.
+The game script URL has a new version tag to avoid the old cached script.

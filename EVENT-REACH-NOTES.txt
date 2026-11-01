@@ -1,0 +1,12 @@
+EVENT REACH & TRAPPER FOCUS
+
+Faultline: a rolling rockslide travels substantially farther, with two overlapping lanes at rank two and returning aftershocks at rank three. Overlapping lanes cannot multiply damage to the same enemy on one pass.
+Winter’s Teeth: five piercing ice fangs travel outward in a spreading volley. Rank two increases the fan to seven larger, longer-reaching fangs. Rank three adds two shards on the first impact. Overlapping fangs do not shotgun a boss with the entire volley.
+Executioner’s Wake: a broad blade curves outward, then returns to your current position at every rank. Rank two increases width and reach. Rank three adds a weaker second crossing blade.
+Stormglass is unchanged.
+
+Automatic event powers now have compact icon countdowns at the bottom center of the battlefield. The final second is highlighted. A ready power waiting for a target reads READY. Rock, ice, and blade also build up briefly beside your character before firing. The display hides during pause and menus.
+
+Trapper: visible bosses and event objectives within actual pellet range get explicit priority over ordinary packs. Focus survives a brief defensive shot at imminent contact and resumes when that pressure clears. Dead, phased, offscreen, and out-of-range targets lose focus immediately. Expiring Locked N’ Loaded correctly reduces targeting range. Manual right-stick aiming still overrides auto aim. Gun damage, pierce, cooldowns, gear, and enemy stats are unchanged.
+
+Validation: 75 reward/rank runtime cases; near and far target hits; fork/volley overlap caps; blade return to a moving player; six-icon HUD; pause/cleanup; 180-second effect stress test; Trapper old/new focus comparison, range/visibility/phase changes, manual aiming, and actual projectile delivery through one blocker. Browser checks do not substitute for physical iPhone/iPad testing.

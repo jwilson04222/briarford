@@ -1,0 +1,36 @@
+ENDLESS / COMBAT HUD UPDATE
+
+XP is beneath health inside the player card, with a percentage or an explicit
+XP ready / next choice countdown. The top-of-screen XP stripe is removed.
+Endless continues banking XP during its existing 25-second upgrade-choice gap.
+No XP, upgrade, health, enemy-count or difficulty balance values were changed.
+Event panels use more horizontal space, reducing wrapping, and clear the
+player card. Boss/event coexistence retains separate panels.
+
+Ordinary lich beams now use the spectral attack renderer. Dread Fiend,
+flame turrets and other shared flame jets use inked flat-color flames rendered
+in a single instanced draw per jet. Removed the rejected flame-sheet asset.
+Attack timing, range and damage are preserved.
+
+PERFORMANCE
+Static opaque pieces of affix ornaments are merged by material at creation.
+Animated pieces, icons, translucent fields and material changes remain intact.
+In a controlled 76-enemy scene with 16 affixes, additional affix draw calls
+fell from 180 to 108 (40% less); total calls in the matched comparison fell
+from 372 to 300. Triangle counts were unchanged. All eight affixes passed
+material and geometry comparisons at three animation states.
+
+Encounter model preprocessing now occurs during loading. Colossus preparation
+previously performed a 1024x1024 canvas pixel read during its first spawn.
+The software-rendered test showed a severe synchronization stall there; after
+moving preparation to loading its first measured spawn took 9.7 ms. This is
+not a claim of an equivalent time saving on a physical phone or iPad.
+
+TEST COVERAGE AND LIMITS
+44 phone/tablet HUD layouts; 5 command layouts; earned-XP, waiting and level-up
+sequence; actual lich and Dread Fiend attack routes; 21 spawn/cleanup cycles
+(7 new model encounters repeated 3 times). Geometry and texture counts stayed
+at 54 and 52 after warmed encounter cleanup, with no increase across repeats.
+Crowd stress scenes up to 76 actual enemies. No browser exceptions in checks.
+GPU-heavy crowds and transparent effects remain possible causes of slowdown.
+No native iPad/Android FPS measurements or hour-long live runs were performed.

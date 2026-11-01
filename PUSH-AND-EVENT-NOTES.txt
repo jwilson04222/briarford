@@ -1,0 +1,39 @@
+BRIARFORD SURVIVORS — KNOCKBACK AND EVENT PRESENTATION
+
+BONE SHAPER
+- Bone Halo and Bone projectiles from death effects no longer push enemies.
+- Halo damage, Bleed, cage hits and returning-rib interactions are retained.
+- The previous Life Drain healing cap remains in place.
+
+TRAPPER
+- Shotgun knockback applies once to each enemy per blast, instead of once per
+  pellet. Regular pellet pushes also have a 0.6-second recovery per enemy.
+- Single-blast force is 18 at early ranks and 32 from rank four (previously
+  45 or 120 PER PELLET). All pellets still deal their normal damage.
+- Explosive pellet splash deals damage and burn without pushing nearby mobs.
+- Shrapnel receives only a light impact. Breach shots retain a stronger,
+  separate 55-force shove with a 0.75-second recovery.
+- Trap holds, trap blast force and spring-corpse impacts are retained.
+- Clockwork's gun and other builds' projectile rules are unchanged.
+
+EVENT POWERS
+- Last Footfall: an opaque, textured spectral double follows the player's
+  flank, turns toward targets, and switches between running and attacks.
+  It fires bright spectral blades with an impact effect. It retains the
+  existing attack count, damage and cooldown; movement can change coverage.
+- Carrion Bloom: hinged jaws, visible dark mouth, teeth, leaves and a stem.
+  It snaps and recoils on each damage pulse, with bite audio. Its rank-three
+  finishing bite retains the acid burst.
+- Cinderheart: a charred heart with molten fissures and flame tongues. A
+  visible heartbeat accelerates before detonation. Each pulse produces
+  Dragon Shot-style fire; the finishing blast has its own impact sound.
+- Six event-power slots and later mastery upgrades remain available.
+
+VALIDATION
+- Before/after projectile and halo hit tests: damage matched while the
+  targeted knockback decreased. Boss/juggernaut immunity and Clockwork
+  regression checks passed. Repeated-push recovery and volley limits checked.
+- All 13 current builds were checked for clone movement and attack animation.
+- Three event powers checked through their cast, pulse and finish sequences.
+- These are focused regression and presentation checks, not full Endless
+  balance certification or physical-device performance measurements.

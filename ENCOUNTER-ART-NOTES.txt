@@ -1,0 +1,28 @@
+Champion and animal encounter presentation update
+
+Champion: replaced the generated model with the existing rigged Paladin skin,
+recolored in dark steel and burgundy. Uses existing sword/shield props and clips.
+Hollow Champion: replaced the generated model with the existing Black Knight
+skin, recolored in cold steel/green. Its shoulder armor disappears at the
+existing armor-break phase. Both skins retain their original game silhouettes.
+
+Champion attack clips now follow the windup, hit and recovery timing.
+Wolf model retained. Added articulated lower legs and paws, distance-driven
+diagonal gait, anticipation and landing compression, and committed lunge facing.
+Carrion Queen model retained. Added wing segments, takeoff, banked turns,
+dive folding, landing flare and recovery. Removed instant flight-height changes.
+
+Steel, claw, dive and armor-break impacts now use focused slash, dust and metal
+effects instead of the previous generic impact treatment. Other encounters'
+effects are outside this patch; this is not a complete game VFX replacement.
+
+No HP, damage, reward or progression changes. Smooth turning changes animal
+movement paths slightly. Existing attack warnings and hit timings are retained.
+Previous XP/HUD, spectral lich and fire-rendering changes are included.
+Champion recolor and outline preparation now happens during loading, rather
+than when the first champion appears in combat.
+
+Validation: browser simulations of all four encounter attack cycles, committed
+attack-facing checks, bird-height continuity and Hollow armor-break checks;
+visual inspection of movement samples and attack phases. This is browser QA,
+not a native iPad/Android device test or a substitute for visual approval.

@@ -1,0 +1,33 @@
+BRIARFORD SURVIVORS — ENDLESS EVENT EXPANSION
+
+Carrion Queen
+- Hunts in flight, with stronger wing strokes and a banking body pose.
+- Dive warning reduced from 1.2 to 0.7 seconds. Direction locks for the dive.
+- A missed dive grants a 2.1-second grounded opening with 35% increased damage taken.
+- A connected dive recovers for 0.65 seconds, without that vulnerability bonus.
+- Attackable during flight. No added invulnerability or HP increase.
+- Repeated roots, freezes and stuns slow her flight instead of stopping the phase cycle indefinitely.
+
+25 event powers; six equipped at once
+- Added Iron Comet: a returning spiked ball; rank three adds a second ball.
+- Added Ravenwheel: ravens prioritize visible elites/bosses, gain piercing dives, then regroup for a second pass.
+- Added Faultline: a moving rupture, branching paths, then a return eruption.
+- Added Ricochet Relic: an iron idol rebounds between enemies and can strike isolated bosses repeatedly.
+- Added Razorwake: moving leaves damaging toothed traps; higher ranks widen and repeat their bite.
+- Added Gallows Pendulum: a chained axe sweeps, reverses, then adds a focused chop.
+- Added Siegebreaker: a targeted anvil drop, a second drop, then piercing impact fragments.
+- All new powers use automatic nearby targeting, their own icons, toon shading and smooth outlines.
+- New powers do not add knockback or permanent crowd-control barriers.
+- Six equipped powers remains the limit. Three reward choices at a time. Mastery upgrades continue after rank three.
+
+Reworked powers
+- Carrion Bloom burrows between nearby targets and lunges to bite; rank three adds a smaller hunter.
+- Last Footfall performs visible lunging sweeps; rank three attacks from both flanks. Uses the current hero's animated model.
+- Cinderheart follows the hero, charges, then sweeps flame across nearby enemies. Rank three adds a return pass.
+
+Validation scope
+- All 25 powers checked at ranks 1, 2 and 3 for activation, damage, rendered objects and actor cleanup.
+- Carrion Queen exercised against deliberate dodges, deliberate hits and repeated crowd control.
+- Visual checks use the actual game renderer and models.
+- This is a mechanics/presentation pass, not proof of final Endless balance or physical iPad/Android performance.
+- Prior Bone healing, Bone/Trapper knockback fixes and testing unlocks retained.

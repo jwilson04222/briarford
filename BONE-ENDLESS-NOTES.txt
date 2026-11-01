@@ -1,0 +1,22 @@
+BRIARFORD SURVIVORS — BONE SUSTAIN / ENDLESS POWER SLOTS
+
+Bone Shaper
+- Life Drain healing is capped across ALL targets per cast: 2%, 4%, 6%,
+  8%, then 10% of maximum HP at ranks 1–5. It still requires actual damage.
+- Damage, targeting, cooldown, cage protection and Bone Halo are unchanged.
+- This addresses damage-scaling full heals, not a proven invulnerability bug.
+- Plaguebringer and other Necromancer stances retain their existing Life Drain.
+
+Endless
+- Carry six automatic event powers, increased from three.
+- Rewards still show three choices. Until all six slots are occupied, choices
+  include new powers alongside an upgrade to an existing power.
+- Once full, choose among three owned powers to upgrade. Three behavior ranks
+  and repeatable mastery remain; six is the slot limit, not the rank limit.
+- Briefing, reward text and pause loadout now describe the six-slot limit.
+
+Validation scope
+- Before/after Life Drain measurements and deliberate crowd-contact probes.
+- Healing caps at all five ranks, empty-target and overkill cases, plus Plague
+  regression check. All 18 powers tested in three six-power groups at rank 3.
+- These are focused regression tests, not full-run Endless balance certification.

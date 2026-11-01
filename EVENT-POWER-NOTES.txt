@@ -1,0 +1,41 @@
+BRIARFORD SURVIVORS — ENDLESS EVENT POWERS
+
+Event victories now award a choice of automatic powers. Carry six different
+powers per run. Later event rewards improve those powers through three behavior
+ranks, followed by repeatable damage mastery (+10% per mastery rank).
+
+XP still upgrades your class skills, then existing Endless stat training.
+Every event power works for every hero without an elemental, weapon or kill
+requirement. No additional combat buttons. Event rewards wait through Hold the
+Line and Showtime and retain the existing spacing between upgrade choices.
+
+18 POWERS
+Death Knell / Grave Nails / Executioner's Wake / Stormglass / Winter's Teeth /
+Cinderheart / Blight Vessel / Carrion Bloom / Blackpowder Beetles / Spring Coffin /
+Scrap Familiar / Siege Bellows / Salvage Storm / Haunting Refrain /
+Mourning Lantern / Last Footfall / Warden's Chains / Grave Bloom.
+
+Presentation uses the existing painted ability atlas, comic interface, toon
+materials and smooth outlines. New power props have individual motion; Last
+Footfall uses the current hero's rig and attack animation. Poison and fire
+impacts reuse the current pool and Dragon Shot artwork. Each power has its own
+icon. The Endless briefing includes an illustrated catalogue; pause shows the
+six equipped powers and their current ranks.
+
+Damage is independent of class on-hit triggers. Event powers do not trigger
+class lifesteal, knockback, freeze loops or chained class procs. They respect
+existing enemy protection, armor and Endless target modifiers. Powers reset
+between runs; they are not permanent vault purchases.
+
+VALIDATION
+- All 18 powers dealt damage at ranks 1, 2 and 3 in isolated browser scenarios.
+- Every hero's Last Footfall echo used a valid rig and animation (13 builds).
+- Event completion -> power reward -> selection; XP remains class training.
+- Original three-slot limit (expanded to six in BONE-ENDLESS-NOTES.txt), upgrades after slots fill, mastery, pause and shield/
+  Showtime reward deferral checked.
+- Repeated rendered cast cycles: stable geometry/texture counts after cleanup.
+- Six 30-second real-update integration scenarios across warrior, archer,
+  tinker, necromancer and bard builds. No browser errors or missing requests.
+
+These are integration and visual checks, not full Endless balance runs or
+physical iPhone/Android device certification. Long-run tuning still needs play.

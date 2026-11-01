@@ -1,0 +1,30 @@
+Boss and encounter VFX alignment
+
+Reference direction: Dragon Shot, organic poison/oil pools and the Thorn
+Matriarch's rooted, shaded geometry. The referenced hero effects and the
+Matriarch's root artwork are preserved.
+
+Tempest Oracle: replaced disconnected thin zigzags and rapid opacity flicker
+with connected branching strokes, dark edges, blue body and bright core.
+Branches connect to the main discharge and stay within the warned lane width.
+Short ground traces and batched sparks finish the hit. Crossing lanes and
+Forked Verdict both use the replacement; the old lightning branch is removed.
+
+Storm Channeler: small strikes and the final strike use the same new electrical
+art. Damage and warning timing remain unchanged; cosmetic decay lasts slightly
+longer so the contact is readable.
+
+Ground impacts: Grave Quake, enemy slams/leap landings/boulders and the Buried
+Colossus fist impact now use an irregular dark ground mark, shaded stone slabs
+and low dust. No perfect flat disc or floating rock ring.
+
+Drowned Host: replaced three thin lines with a curved, shaded liquid crest,
+foam ridge and droplets. The warned area and damage remain unchanged.
+
+Validation: four sampled animation phases for each effect at mobile viewport
+size; actual Oracle and Matriarch move cycles; warning-before-hit assertions;
+actual Storm Channeler small and final strike route; repeated geometry/texture
+cleanup; direct-file HTML gameplay startup and pause/resume.
+
+This patch changes the effects listed above. It does not certify every effect
+in the game as final. Browser QA does not replace native-device testing.

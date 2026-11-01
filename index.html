@@ -478,13 +478,13 @@ body.touch #actionbtn{bottom:calc(48px + env(safe-area-inset-bottom,0px));right:
     <div class="timer" id="timer">0:00</div>
     <div class="stats"><div>Slain <b id="kills">0</b></div><div>Gold <b id="gold">0</b></div></div>
   </div>
-  <div id="xptop"><div class="bar xp"><i id="xpbar" style="width:0%"></i></div><div class="lvl" id="plevel">Lv 1</div></div>
   <div id="bossbar"><div class="name" id="bossname"></div><span id="bossvalue"></span><div class="bar"><i id="bosshp" style="width:100%"></i></div></div>
   <div id="banner"></div>
   <div id="combo"></div>
   <div id="status">
-    <div class="name"><span id="pname">—</span><span id="pcls"></span></div>
+    <div class="name"><span class="lvl" id="plevel">LV 1</span><span id="pname">—</span><span id="pcls"></span></div>
     <div class="lbl"><span>Hits</span><span id="hptext"></span></div><div class="bar"><i id="hpbar" style="width:100%"></i></div>
+    <div id="xptop"><span id="xptext">XP 0%</span><div class="bar xp"><i id="xpbar" style="width:0%"></i></div></div>
     <div id="slots"></div>
     <div id="dashcd">Dash ready</div>
     <div id="pyrefocus" hidden style="color:#ffb04a;font-size:.75em">Dragon Dash · ready</div>
@@ -2046,7 +2046,8 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 <script src="orientation.js?v=f9ef2926949f"></script>
 <script src="combat-touch.js?v=c23ee4b668e9"></script>
 <script src="audio-bank.js?v=c8ca31acba08"></script>
-<script src="game.js?v=endless-nine-shields-20261031"></script>
+<script src="encounter-models.js?v=5ef4f44b1406"></script>
+<script src="game.js?v=0f3e85d5a423"></script>
 
 <style id="runBriefingStyle">
 /* The chosen run's rules are visible beside the maps, without opening a dialog. */
@@ -2155,3 +2156,5 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 }
 @media(orientation:landscape) and (max-height:520px){#pause .gump:not(.hasThreatGuide){display:block!important;height:auto;overflow:auto;width:min(640px,96vw)}#pause .gump:not(.hasThreatGuide) .pauseActions{overflow:visible}}
 </style>
+
+<link rel="stylesheet" href="combat-hud.css?v=f79721b197de">
